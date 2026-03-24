@@ -1,0 +1,230 @@
+// src/data/seed.js
+// Run `npm run generate-cards` to regenerate public/cards.json
+
+export const vocabularyCards = [
+  { id:'vocab_001', type:'vocabulary', word:'reluctant', definition:'Not willing to do something; hesitant', definitionSimple:"When you really don't want to do something", exampleSentence:'She was reluctant to leave the party early.', synonyms:['hesitant','unwilling'], antonyms:['eager','willing'] },
+  { id:'vocab_002', type:'vocabulary', word:'unconvinced', definition:'Not persuaded or certain about something', definitionSimple:'When you still have doubts and are not sure', exampleSentence:'He remained unconvinced by the argument.', synonyms:['doubtful','skeptical'], antonyms:['convinced','certain'] },
+  { id:'vocab_003', type:'vocabulary', word:'variable', definition:'Likely to change; not staying the same', definitionSimple:'Something that keeps changing', exampleSentence:'The weather in England is very variable.', synonyms:['changeable','inconsistent'], antonyms:['constant','stable'] },
+  { id:'vocab_004', type:'vocabulary', word:'unreliable', definition:'Cannot be trusted or depended on', definitionSimple:'Something you cannot count on', exampleSentence:'The old car was unreliable and often broke down.', synonyms:['untrustworthy','inconsistent'], antonyms:['reliable','dependable'] },
+  { id:'vocab_005', type:'vocabulary', word:'pending', definition:'Waiting to be decided or dealt with', definitionSimple:'Something not finished yet, still waiting', exampleSentence:'The decision is still pending.', synonyms:['awaiting','unresolved'], antonyms:['resolved','decided'] },
+  { id:'vocab_006', type:'vocabulary', word:'indecisive', definition:'Unable to make decisions quickly or clearly', definitionSimple:'When you cannot make up your mind', exampleSentence:'She was indecisive about which book to choose.', synonyms:['hesitant','uncertain'], antonyms:['decisive','resolute'] },
+  { id:'vocab_007', type:'vocabulary', word:'exasperated', definition:'Intensely irritated and frustrated', definitionSimple:'Super annoyed and fed up', exampleSentence:'The teacher was exasperated by the constant noise.', synonyms:['frustrated','irritated'], antonyms:['calm','pleased'] },
+  { id:'vocab_008', type:'vocabulary', word:'nonchalant', definition:'Appearing casually calm and relaxed', definitionSimple:'Acting cool like nothing bothers you', exampleSentence:'He seemed nonchalant about the exam results.', synonyms:['casual','indifferent'], antonyms:['anxious','concerned'] },
+  { id:'vocab_009', type:'vocabulary', word:'compassionate', definition:'Feeling or showing sympathy and concern for others', definitionSimple:"Caring deeply about other people's feelings", exampleSentence:'The compassionate nurse stayed with the patient all night.', synonyms:['caring','empathetic'], antonyms:['cruel','indifferent'] },
+  { id:'vocab_010', type:'vocabulary', word:'exploitative', definition:'Treating someone unfairly to benefit yourself', definitionSimple:'Using people in an unfair way to get what you want', exampleSentence:'The exploitative landlord charged too much rent.', synonyms:['manipulative','opportunistic'], antonyms:['fair','generous'] },
+  { id:'vocab_011', type:'vocabulary', word:'prestigious', definition:'Respected and admired; having high status', definitionSimple:'Famous and respected by everyone', exampleSentence:'She won a place at a prestigious school.', synonyms:['distinguished','renowned'], antonyms:['unknown','obscure'] },
+  { id:'vocab_012', type:'vocabulary', word:'unbeknownst', definition:'Without the knowledge of someone', definitionSimple:'Without someone knowing about it', exampleSentence:'Unbeknownst to him, a surprise party was being planned.', synonyms:['unknown','secretly'], antonyms:[] },
+  { id:'vocab_013', type:'vocabulary', word:'perilous', definition:'Full of danger or risk', definitionSimple:'Very dangerous', exampleSentence:'The mountaineers faced a perilous climb.', synonyms:['dangerous','hazardous'], antonyms:['safe','secure'] },
+  { id:'vocab_014', type:'vocabulary', word:'boisterous', definition:'Noisy, energetic, and cheerful', definitionSimple:'Loud and full of energy', exampleSentence:'The boisterous children ran through the playground.', synonyms:['lively','rowdy'], antonyms:['quiet','calm'] },
+  { id:'vocab_015', type:'vocabulary', word:'inference', definition:'A conclusion reached by reasoning from evidence', definitionSimple:'Working out something that is not directly said', exampleSentence:'From the clues, the detective made an inference.', synonyms:['deduction','conclusion'], antonyms:[] },
+  { id:'vocab_016', type:'vocabulary', word:'enhance', definition:'To improve the quality or value of something', definitionSimple:'To make something better', exampleSentence:'The lighting enhanced the beauty of the room.', synonyms:['improve','boost'], antonyms:['worsen','diminish'] },
+  { id:'vocab_017', type:'vocabulary', word:'impact', definition:'A strong effect or influence on something', definitionSimple:'A big effect on something', exampleSentence:'The storm had a huge impact on the town.', synonyms:['effect','influence'], antonyms:[] },
+  { id:'vocab_018', type:'vocabulary', word:'fable', definition:'A short story with a moral lesson, often with animal characters', definitionSimple:'A short story that teaches you something, often with animals', exampleSentence:"Aesop's fable about the tortoise and the hare teaches us about patience.", synonyms:['parable','tale'], antonyms:[] },
+  { id:'vocab_019', type:'vocabulary', word:'intrigued', definition:'Very curious and interested', definitionSimple:'Really curious and wanting to find out more', exampleSentence:'She was intrigued by the mysterious package.', synonyms:['fascinated','curious'], antonyms:['bored','indifferent'] },
+  { id:'vocab_020', type:'vocabulary', word:'apprehensive', definition:'Anxious or fearful about a future event', definitionSimple:'Worried about something that might happen', exampleSentence:'He felt apprehensive before the big match.', synonyms:['anxious','nervous'], antonyms:['confident','calm'] },
+  { id:'vocab_021', type:'vocabulary', word:'sorrow', definition:'A feeling of deep sadness or distress', definitionSimple:'Very deep sadness', exampleSentence:'She felt great sorrow when her dog died.', synonyms:['grief','sadness'], antonyms:['joy','happiness'] },
+  { id:'vocab_022', type:'vocabulary', word:'gratification', definition:'Pleasure gained from getting what you wanted', definitionSimple:'The good feeling you get when something you wanted happens', exampleSentence:'Finishing the puzzle gave him great gratification.', synonyms:['satisfaction','pleasure'], antonyms:['disappointment','frustration'] },
+  { id:'vocab_023', type:'vocabulary', word:'absurd', definition:'Wildly unreasonable or illogical; ridiculous', definitionSimple:'So silly it makes no sense at all', exampleSentence:'It was absurd to wear a coat in summer heat.', synonyms:['ridiculous','preposterous'], antonyms:['reasonable','sensible'] },
+  { id:'vocab_024', type:'vocabulary', word:'nonsensical', definition:'Making no sense; absurd', definitionSimple:'Completely makes no sense', exampleSentence:'His nonsensical explanation confused everyone.', synonyms:['absurd','illogical'], antonyms:['sensible','logical'] },
+  { id:'vocab_025', type:'vocabulary', word:'infallible', definition:'Incapable of making mistakes; never wrong', definitionSimple:'Always right, never ever wrong', exampleSentence:'Nobody is infallible — everyone makes mistakes eventually.', synonyms:['faultless','perfect'], antonyms:['fallible','imperfect'] },
+  { id:'vocab_026', type:'vocabulary', word:'trudged', definition:'Walked slowly and heavily, as if very tired', definitionSimple:'Walked in a slow, tired, heavy way', exampleSentence:'She trudged home through the snow.', synonyms:['plodded','dragged'], antonyms:['sprinted','dashed'] },
+  { id:'vocab_027', type:'vocabulary', word:'defiantly', definition:'In a way that boldly resists or challenges authority', definitionSimple:'In a way that shows you refuse to obey or back down', exampleSentence:'He defiantly refused to apologise.', synonyms:['boldly','rebelliously'], antonyms:['obediently','submissively'] },
+  { id:'vocab_028', type:'vocabulary', word:'eroded', definition:'Gradually worn away over time', definitionSimple:'Slowly worn away bit by bit', exampleSentence:'The cliffs had been eroded by the sea over centuries.', synonyms:['worn','deteriorated'], antonyms:['built','strengthened'] },
+  { id:'vocab_029', type:'vocabulary', word:'oppressive', definition:'Cruel, harsh, and controlling; also uncomfortably heavy', definitionSimple:'Very harsh and unfair, or so heavy it feels suffocating', exampleSentence:'The oppressive heat made it hard to breathe.', synonyms:['harsh','tyrannical'], antonyms:['gentle','fair'] },
+  { id:'vocab_030', type:'vocabulary', word:'solitary', definition:'Done alone; existing alone without companions', definitionSimple:'Alone, by yourself, with nobody else', exampleSentence:'He preferred solitary walks in the woods.', synonyms:['alone','isolated'], antonyms:['social','accompanied'] },
+  { id:'vocab_031', type:'vocabulary', word:'pity', definition:"A feeling of sorrow for someone else's misfortune", definitionSimple:'Feeling sad because something bad happened to someone else', exampleSentence:'She felt pity for the stray cat in the rain.', synonyms:['sympathy','compassion'], antonyms:['indifference','cruelty'] },
+  { id:'vocab_032', type:'vocabulary', word:'resonate', definition:'To have a strong effect or meaning for someone', definitionSimple:'When something connects with you and feels meaningful', exampleSentence:'The story resonated with everyone in the room.', synonyms:['connect','strike a chord'], antonyms:[] },
+  { id:'vocab_033', type:'vocabulary', word:'obnoxiously', definition:'In an extremely unpleasant or annoying way', definitionSimple:'In a way that is really annoying and hard to ignore', exampleSentence:'He laughed obnoxiously during the film.', synonyms:['annoyingly','offensively'], antonyms:['pleasantly','politely'] },
+  { id:'vocab_034', type:'vocabulary', word:'foreboding', definition:'A strong feeling that something bad is about to happen', definitionSimple:'A scary feeling that something bad is coming', exampleSentence:'She had a sense of foreboding as she entered the dark house.', synonyms:['dread','premonition'], antonyms:['hope','optimism'] },
+  { id:'vocab_035', type:'vocabulary', word:'supernatural', definition:'Beyond normal natural explanation; magical or ghostly', definitionSimple:'Things that science cannot explain, like ghosts or magic', exampleSentence:'The old house was said to have supernatural powers.', synonyms:['paranormal','unearthly'], antonyms:['natural','normal'] },
+  { id:'vocab_036', type:'vocabulary', word:'unvaried', definition:'Lacking variety; always the same', definitionSimple:'Always exactly the same, boring and repetitive', exampleSentence:'The unvaried menu made mealtimes dull.', synonyms:['monotonous','repetitive'], antonyms:['varied','diverse'] },
+  { id:'vocab_037', type:'vocabulary', word:'practical', definition:'Concerned with real situations rather than theory', definitionSimple:'Useful in real life, not just in ideas', exampleSentence:'A raincoat is a practical choice for English weather.', synonyms:['useful','sensible'], antonyms:['impractical','theoretical'] },
+  { id:'vocab_038', type:'vocabulary', word:'confections', definition:'Elaborately decorated sweet foods or cakes', definitionSimple:'Fancy sweets, chocolates, or decorated cakes', exampleSentence:'The bakery window was full of beautiful confections.', synonyms:['sweets','delicacies'], antonyms:[] },
+  { id:'vocab_039', type:'vocabulary', word:'camaraderie', definition:'Mutual trust and friendship among people', definitionSimple:'The warm, friendly feeling between people in a group', exampleSentence:'There was great camaraderie among the team.', synonyms:['friendship','fellowship'], antonyms:['hostility','rivalry'] },
+  { id:'vocab_040', type:'vocabulary', word:'ingenuity', definition:'The quality of being clever, original, and inventive', definitionSimple:'Being really clever at finding creative solutions', exampleSentence:'The engineer solved the problem with great ingenuity.', synonyms:['cleverness','creativity'], antonyms:['stupidity','uncreative'] },
+  { id:'vocab_041', type:'vocabulary', word:'enduring', definition:'Lasting for a long time; continuing', definitionSimple:'Something that keeps going for a long time', exampleSentence:'Their enduring friendship lasted fifty years.', synonyms:['lasting','persistent'], antonyms:['brief','temporary'] },
+  { id:'vocab_042', type:'vocabulary', word:'controversial', definition:'Causing strong disagreement or argument', definitionSimple:'Something that people strongly disagree about', exampleSentence:'The new rule was controversial among the students.', synonyms:['debatable','disputed'], antonyms:['uncontroversial','accepted'] },
+  { id:'vocab_043', type:'vocabulary', word:'garments', definition:'Pieces of clothing', definitionSimple:'Items of clothing', exampleSentence:'She packed her finest garments for the trip.', synonyms:['clothes','attire'], antonyms:[] },
+  { id:'vocab_044', type:'vocabulary', word:'accessible', definition:'Easy to reach, use, or understand', definitionSimple:'Easy to get to or use', exampleSentence:'The information was clearly written and accessible to all.', synonyms:['available','reachable'], antonyms:['inaccessible','unreachable'] },
+  { id:'vocab_045', type:'vocabulary', word:'logistics', definition:'The detailed planning and organisation of an activity', definitionSimple:'The practical planning and organisation of how to do something', exampleSentence:'Organising the school trip involved complex logistics.', synonyms:['organisation','planning'], antonyms:[] },
+  { id:'vocab_046', type:'vocabulary', word:'unequivocal', definition:'Leaving no doubt; completely clear', definitionSimple:'Absolutely clear with no room for doubt', exampleSentence:'Her answer was unequivocal: "No."', synonyms:['clear','definite'], antonyms:['ambiguous','unclear'] },
+  { id:'vocab_047', type:'vocabulary', word:'reconstructed', definition:'Built or created again after being damaged or destroyed', definitionSimple:'Built again after being destroyed', exampleSentence:'The ancient temple was carefully reconstructed.', synonyms:['rebuilt','restored'], antonyms:['demolished','destroyed'] },
+  { id:'vocab_048', type:'vocabulary', word:'optimistic', definition:'Hopeful and confident about the future', definitionSimple:'Believing good things will happen', exampleSentence:'She was optimistic about passing the exam.', synonyms:['hopeful','positive'], antonyms:['pessimistic','negative'] },
+  { id:'vocab_049', type:'vocabulary', word:'fowl', definition:'A bird, especially one kept for eggs or meat (e.g. chicken)', definitionSimple:'A bird like a chicken or duck', exampleSentence:'The farmer kept several different types of fowl.', synonyms:['bird','poultry'], antonyms:[] },
+  { id:'vocab_050', type:'vocabulary', word:'unassumingly', definition:'In a modest way, without drawing attention to oneself', definitionSimple:'In a quiet, modest way without showing off', exampleSentence:'He unassumingly helped clear the tables after dinner.', synonyms:['modestly','quietly'], antonyms:['arrogantly','boastfully'] },
+  { id:'vocab_051', type:'vocabulary', word:'analytical', definition:'Using careful, logical analysis to examine things', definitionSimple:'Thinking carefully and logically about things', exampleSentence:'She had an analytical mind and loved solving puzzles.', synonyms:['logical','methodical'], antonyms:['illogical','haphazard'] },
+  { id:'vocab_052', type:'vocabulary', word:'financial', definition:'Relating to money and how it is managed', definitionSimple:'To do with money', exampleSentence:'He made a careful financial plan before spending.', synonyms:['monetary','economic'], antonyms:[] },
+  { id:'vocab_053', type:'vocabulary', word:'blunt', definition:'Direct and outspoken without being tactful; also not sharp', definitionSimple:'Saying things in a very direct way without being careful about feelings', exampleSentence:'His blunt comment hurt her feelings.', synonyms:['direct','frank'], antonyms:['tactful','diplomatic'] },
+  { id:'vocab_054', type:'vocabulary', word:'unrelenting', definition:'Never stopping or getting less intense', definitionSimple:'Never stopping, always continuing with full force', exampleSentence:'The unrelenting rain lasted all week.', synonyms:['relentless','persistent'], antonyms:['stopping','intermittent'] },
+  { id:'vocab_055', type:'vocabulary', word:'pressing', definition:'Requiring immediate attention; urgent', definitionSimple:'Something that needs to be done right now', exampleSentence:'There is a pressing need to fix the leaking roof.', synonyms:['urgent','critical'], antonyms:['unimportant','trivial'] },
+  { id:'vocab_056', type:'vocabulary', word:'neglected', definition:'Not given proper care or attention', definitionSimple:'Left without being looked after properly', exampleSentence:'The neglected garden was full of weeds.', synonyms:['abandoned','ignored'], antonyms:['cared for','tended'] },
+  { id:'vocab_057', type:'vocabulary', word:'compelling', definition:'Evoking strong interest or admiration; convincing', definitionSimple:'So interesting or convincing that you cannot look away or disagree', exampleSentence:'The film was so compelling she watched it twice.', synonyms:['gripping','persuasive'], antonyms:['boring','unconvincing'] },
+  { id:'vocab_058', type:'vocabulary', word:'urgent', definition:'Requiring immediate action or attention', definitionSimple:'Needs to happen right now', exampleSentence:'There was an urgent message waiting for him.', synonyms:['pressing','critical'], antonyms:['unimportant','leisurely'] },
+  { id:'vocab_059', type:'vocabulary', word:'dismally', definition:'In a way that is very bad or unsuccessful', definitionSimple:'Really badly, in a sad and disappointing way', exampleSentence:'He dismally failed the test after not revising.', synonyms:['poorly','terribly'], antonyms:['brilliantly','successfully'] },
+  { id:'vocab_060', type:'vocabulary', word:'luscious', definition:'Richly pleasing to the taste or senses', definitionSimple:'Deliciously rich and tasty', exampleSentence:'The luscious strawberries were perfectly ripe.', synonyms:['delicious','rich'], antonyms:['bland','unpleasant'] },
+  { id:'vocab_061', type:'vocabulary', word:'overlooked', definition:'Failed to notice or consider; also to look over from above', definitionSimple:'Not noticed or missed out accidentally', exampleSentence:'An important clue had been overlooked by the detective.', synonyms:['missed','ignored'], antonyms:['noticed','identified'] },
+  { id:'vocab_062', type:'vocabulary', word:'skeptical', definition:'Not easily convinced; having doubts', definitionSimple:'Not believing something easily, needing proof', exampleSentence:'She was skeptical about his excuse.', synonyms:['doubtful','unconvinced'], antonyms:['convinced','trusting'] },
+  { id:'vocab_063', type:'vocabulary', word:'agitated', definition:'Feeling troubled or nervous; anxious', definitionSimple:'Feeling nervous, worried, and unable to stay calm', exampleSentence:'The long wait made her increasingly agitated.', synonyms:['anxious','unsettled'], antonyms:['calm','relaxed'] },
+  { id:'vocab_064', type:'vocabulary', word:'proponent', definition:'A person who supports or argues for something', definitionSimple:'Someone who strongly supports an idea', exampleSentence:'She was a strong proponent of healthy eating.', synonyms:['supporter','advocate'], antonyms:['opponent','critic'] },
+  { id:'vocab_065', type:'vocabulary', word:'enlighten', definition:'To give someone greater knowledge or understanding', definitionSimple:'To help someone understand something better', exampleSentence:'The documentary enlightened viewers about climate change.', synonyms:['inform','educate'], antonyms:['confuse','mislead'] },
+  { id:'vocab_066', type:'vocabulary', word:'mirth', definition:'Amusement or laughter', definitionSimple:'Happy laughter and amusement', exampleSentence:'The comedy show was a source of great mirth.', synonyms:['laughter','merriment'], antonyms:['sorrow','sadness'] },
+  { id:'vocab_067', type:'vocabulary', word:'laddered', definition:'Having a run or ladder in (a stocking or tights)', definitionSimple:'When tights or stockings get a long rip in them', exampleSentence:'She noticed her tights were laddered before the performance.', synonyms:['torn','ripped'], antonyms:[] },
+  { id:'vocab_068', type:'vocabulary', word:'propose', definition:'To put forward an idea or plan for consideration', definitionSimple:'To suggest an idea for others to think about', exampleSentence:'She proposed a new way to organise the classroom.', synonyms:['suggest','recommend'], antonyms:['oppose','reject'] },
+  { id:'vocab_069', type:'vocabulary', word:'fund', definition:'A sum of money for a specific purpose', definitionSimple:'Money saved or collected for a special reason', exampleSentence:'They set up a fund to help the flood victims.', synonyms:['reserve','pool'], antonyms:[] },
+  { id:'vocab_070', type:'vocabulary', word:'household', definition:'Relating to the home and the people in it', definitionSimple:'To do with your home and family', exampleSentence:'Washing up is a common household chore.', synonyms:['domestic','home'], antonyms:[] },
+]
+
+export const literaryDeviceCards = [
+  { id:'lit_001', type:'literary_device', term:'Simile', definition:"Comparing two things using 'like' or 'as'", example:'Her eyes were like stars in the night sky.', confusableWith:['Metaphor'] },
+  { id:'lit_002', type:'literary_device', term:'Metaphor', definition:'Describing something as if it actually is something else (without using like or as)', example:'The classroom was a zoo after lunch.', confusableWith:['Simile'] },
+  { id:'lit_003', type:'literary_device', term:'Personification', definition:'Giving human feelings or actions to non-human things', example:'The wind whispered through the trees.', confusableWith:['Metaphor'] },
+  { id:'lit_004', type:'literary_device', term:'Hyperbole', definition:'Extreme exaggeration used for effect', example:"I've told you a million times!", confusableWith:[] },
+  { id:'lit_005', type:'literary_device', term:'Onomatopoeia', definition:'A word that sounds like what it describes', example:'The bees buzzed around the flower.', confusableWith:[] },
+  { id:'lit_006', type:'literary_device', term:'Alliteration', definition:'Repetition of the same consonant sound at the start of nearby words', example:'Peter Piper picked a peck of pickled peppers.', confusableWith:['Consonance'] },
+  { id:'lit_007', type:'literary_device', term:'Juxtaposition', definition:'Placing two contrasting things close together to highlight the difference', example:'It was the best of times, it was the worst of times.', confusableWith:[] },
+  { id:'lit_008', type:'literary_device', term:'Repetition', definition:'Deliberately repeating a word or phrase for emphasis', example:'We shall fight on the beaches, we shall fight on the landing grounds.', confusableWith:[] },
+  { id:'lit_009', type:'literary_device', term:'Analogy', definition:'Explaining something by comparing it to something more familiar', example:'The brain is like a computer — it processes information.', confusableWith:['Simile','Metaphor'] },
+  { id:'lit_010', type:'literary_device', term:'Idiom', definition:'A phrase whose meaning is different from the literal words', example:"It's raining cats and dogs.", confusableWith:[] },
+  { id:'lit_011', type:'literary_device', term:'Consonance', definition:'Repetition of consonant sounds within or at the end of words', example:'The black silk slacks were slick.', confusableWith:['Alliteration'] },
+  { id:'lit_012', type:'literary_device', term:'Fable', definition:'A short story with animal characters that teaches a moral lesson', example:'The Tortoise and the Hare teaches us that slow and steady wins the race.', confusableWith:[] },
+]
+
+export const grammarCards = [
+  // Suffixes — Noun
+  { id:'gram_001', type:'grammar', subtype:'suffix', suffix:'-ness', partOfSpeech:'Noun', examples:['happiness','darkness','kindness'] },
+  { id:'gram_002', type:'grammar', subtype:'suffix', suffix:'-ity', partOfSpeech:'Noun', examples:['creativity','ability','reality'] },
+  { id:'gram_003', type:'grammar', subtype:'suffix', suffix:'-ment', partOfSpeech:'Noun', examples:['enjoyment','movement','excitement'] },
+  { id:'gram_004', type:'grammar', subtype:'suffix', suffix:'-tion', partOfSpeech:'Noun', examples:['information','education','celebration'] },
+  { id:'gram_005', type:'grammar', subtype:'suffix', suffix:'-ship', partOfSpeech:'Noun', examples:['friendship','leadership','relationship'] },
+  { id:'gram_006', type:'grammar', subtype:'suffix', suffix:'-ance/-ence', partOfSpeech:'Noun', examples:['performance','confidence','patience'] },
+  // Suffixes — Verb
+  { id:'gram_007', type:'grammar', subtype:'suffix', suffix:'-ate', partOfSpeech:'Verb', examples:['create','educate','celebrate'] },
+  { id:'gram_008', type:'grammar', subtype:'suffix', suffix:'-ify', partOfSpeech:'Verb', examples:['clarify','identify','simplify'] },
+  { id:'gram_009', type:'grammar', subtype:'suffix', suffix:'-ise/-ize', partOfSpeech:'Verb', examples:['organise','realise','recognise'] },
+  { id:'gram_010', type:'grammar', subtype:'suffix', suffix:'-en', partOfSpeech:'Verb', examples:['brighten','tighten','widen'] },
+  // Suffixes — Adjective
+  { id:'gram_011', type:'grammar', subtype:'suffix', suffix:'-ous', partOfSpeech:'Adjective', examples:['joyous','famous','dangerous'] },
+  { id:'gram_012', type:'grammar', subtype:'suffix', suffix:'-ful', partOfSpeech:'Adjective', examples:['helpful','careful','powerful'] },
+  { id:'gram_013', type:'grammar', subtype:'suffix', suffix:'-less', partOfSpeech:'Adjective', examples:['hopeless','careless','useless'] },
+  { id:'gram_014', type:'grammar', subtype:'suffix', suffix:'-able/-ible', partOfSpeech:'Adjective', examples:['readable','comfortable','possible'] },
+  { id:'gram_015', type:'grammar', subtype:'suffix', suffix:'-al', partOfSpeech:'Adjective', examples:['musical','logical','natural'] },
+  { id:'gram_016', type:'grammar', subtype:'suffix', suffix:'-ive', partOfSpeech:'Adjective', examples:['creative','active','positive'] },
+  { id:'gram_017', type:'grammar', subtype:'suffix', suffix:'-ish', partOfSpeech:'Adjective', examples:['childish','reddish','foolish'] },
+  // Suffixes — Adverb
+  { id:'gram_018', type:'grammar', subtype:'suffix', suffix:'-ly', partOfSpeech:'Adverb', examples:['quickly','carefully','happily'] },
+  { id:'gram_019', type:'grammar', subtype:'suffix', suffix:'-wise', partOfSpeech:'Adverb', examples:['likewise','clockwise','otherwise'] },
+  { id:'gram_020', type:'grammar', subtype:'suffix', suffix:'-ward(s)', partOfSpeech:'Adverb', examples:['forwards','backwards','upwards'] },
+  // Grammar terms
+  { id:'gram_021', type:'grammar', subtype:'term', term:'Homophone', definition:'Words that sound the same but have different spellings and meanings', examples:["there/their/they're","to/too/two"] },
+  { id:'gram_022', type:'grammar', subtype:'term', term:'Homonym', definition:'Words that are spelled and sound the same but have different meanings', examples:['bat (animal / cricket bat)','bank (river bank / money bank)'] },
+  { id:'gram_023', type:'grammar', subtype:'term', term:'Homograph', definition:'Words spelled the same but with different sounds and meanings', examples:['lead (the metal) / lead (to guide)','tear (to cry) / tear (to rip)'] },
+  { id:'gram_024', type:'grammar', subtype:'term', term:'Noun', definition:'A word that names a person, place, thing, or idea', examples:['teacher','London','happiness'] },
+  { id:'gram_025', type:'grammar', subtype:'term', term:'Verb', definition:'A word that expresses an action or state of being', examples:['run','think','is'] },
+  { id:'gram_026', type:'grammar', subtype:'term', term:'Adjective', definition:'A word that describes or modifies a noun', examples:['tall','blue','clever'] },
+  { id:'gram_027', type:'grammar', subtype:'term', term:'Adverb', definition:'A word that modifies a verb, adjective, or another adverb', examples:['quickly','very','often'] },
+  { id:'gram_028', type:'grammar', subtype:'term', term:'Pronoun', definition:'A word used in place of a noun', examples:['he','she','they','it'] },
+]
+
+export const mathsTechniqueCards = [
+  { id:'math_001', type:'maths_technique', question:'How do you find a percentage of a number?', method:'Find 10% (÷10), find 1% (÷100), then build the percentage you need from those parts', steps:['Find 10% by dividing by 10','Find 1% by dividing by 100','Combine to get the percentage you need'], example:'35% of 200: 10%=20, so 30%=60; 5%=10; 35%=70' },
+  { id:'math_002', type:'maths_technique', question:'How do you check a division answer?', method:'Multiply your answer by the divisor — the result should equal the original number (plus the remainder if there is one)', steps:['Multiply answer × divisor','Add remainder if there is one','Check it equals the original number'], example:'23 ÷ 4 = 5 r 3. Check: 5×4=20, 20+3=23 ✓' },
+  { id:'math_003', type:'maths_technique', question:'How do you write a remainder as a fraction?', method:'Put the remainder over the divisor', steps:['Find the remainder','Write remainder ÷ divisor as a fraction','Simplify if possible'], example:'23 ÷ 4 = 5 remainder 3 → 5 and 3/4' },
+  { id:'math_004', type:'maths_technique', question:'How do you find the area of a rectangle?', method:'Multiply length × width', steps:['Identify the length','Identify the width','Multiply them together'], example:'Rectangle 8cm × 5cm: area = 40cm²' },
+  { id:'math_005', type:'maths_technique', question:'How do you work with ratios?', method:'Find the value of one part by dividing the total by the number of parts, then multiply for each share', steps:['Add up all the parts of the ratio','Divide the total by this number to find one part','Multiply one part by each ratio number'], example:'Ratio 3:2, total=25. One part=25÷5=5. Shares: 3×5=15 and 2×5=10' },
+  { id:'math_006', type:'maths_technique', question:'How do you compare decimals using place value?', method:'Line up the decimal points, compare digit by digit from left to right', steps:['Line up the decimal points','Compare the digits in each column from left to right','The first column where they differ determines which is larger'], example:'0.75 vs 0.8: tenths column — 7 vs 8 — so 0.8 is larger' },
+  { id:'math_007', type:'maths_technique', question:'How do you do long division?', method:'Divide, Multiply, Subtract, Bring down — repeat', steps:['Divide: how many times does the divisor go into the current number?','Multiply: write the result','Subtract: find the remainder','Bring down: bring the next digit down and repeat'], example:'156 ÷ 4: 4 into 15 = 3 r3, bring down 6 → 36 ÷ 4 = 9. Answer: 39' },
+]
+
+export const strategyCards = [
+  { id:'strat_001', type:'strategy', question:'What is the Process of Elimination technique?', answer:'Read all options, cross out the ones that are clearly wrong, then choose from what remains', options:['Read all options and cross out wrong ones','Pick the longest answer','Choose the first one that seems right','Skip and come back later'] },
+  { id:'strat_002', type:'strategy', question:'What should you do BEFORE answering comprehension questions?', answer:'Read the entire passage first, then read the questions', options:['Read the questions first to know what to look for','Read the passage and questions at the same time','Answer what you can remember without re-reading','Read the entire passage first, then read the questions'] },
+  { id:'strat_003', type:'strategy', question:'How do you find evidence to support a comprehension answer?', answer:'Go back to the passage and underline or note the exact words that support your answer', options:['Underline evidence in the passage text','Write down what you remember','Make an inference without checking','Use your general knowledge','Go back to the passage and underline or note the exact words that support your answer'] },
+  { id:'strat_004', type:'strategy', question:'What should you do before selecting a final answer?', answer:'Re-read the question carefully to make sure you are answering exactly what was asked', options:['Re-read the question carefully to make sure you are answering exactly what was asked','Pick the answer you chose first','Choose the most interesting option','Look for the longest answer'] },
+  { id:'strat_005', type:'strategy', question:'How should you use spare time at the end of an exam?', answer:'Return to the 3 questions you felt least confident about and check your answers', options:['Return to the 3 questions you felt least confident about and check your answers','Read the passage again from the start','Change all your answers','Skip straight to the end'] },
+]
+
+// Generate multiplication table drills
+function generateMultiplicationDrills() {
+  const drills = []
+  for (let a = 2; a <= 12; a++) {
+    for (let b = 2; b <= 12; b++) {
+      drills.push({
+        id: `arith_mult_${a}_${b}`,
+        type: 'arithmetic',
+        question: `${a} × ${b} = ?`,
+        answer: a * b,
+        inputType: 'number',
+      })
+    }
+  }
+  return drills
+}
+
+// Fraction/Decimal/Percent conversions
+const fractionConversions = [
+  { frac:'1/2', decimal:0.5, percent:50 },
+  { frac:'1/4', decimal:0.25, percent:25 },
+  { frac:'3/4', decimal:0.75, percent:75 },
+  { frac:'1/5', decimal:0.2, percent:20 },
+  { frac:'2/5', decimal:0.4, percent:40 },
+  { frac:'3/5', decimal:0.6, percent:60 },
+  { frac:'4/5', decimal:0.8, percent:80 },
+  { frac:'1/8', decimal:0.125, percent:12.5 },
+  { frac:'3/8', decimal:0.375, percent:37.5 },
+  { frac:'5/8', decimal:0.625, percent:62.5 },
+  { frac:'7/8', decimal:0.875, percent:87.5 },
+  { frac:'1/3', decimal:0.333, percent:33.3 },
+  { frac:'2/3', decimal:0.667, percent:66.7 },
+  { frac:'1/10', decimal:0.1, percent:10 },
+  { frac:'1/100', decimal:0.01, percent:1 },
+]
+
+function generateFractionDrills() {
+  const drills = []
+  fractionConversions.forEach((conv, i) => {
+    drills.push({
+      id: `arith_frac_${i}_a`,
+      type: 'arithmetic',
+      question: `${conv.frac} as a decimal = ?`,
+      answer: conv.decimal,
+      inputType: 'decimal',
+    })
+    drills.push({
+      id: `arith_frac_${i}_b`,
+      type: 'arithmetic',
+      question: `${conv.frac} as a percentage = ?`,
+      answer: conv.percent,
+      inputType: 'number',
+    })
+  })
+  return drills
+}
+
+// Quick percentage drills
+const pctValues = [10, 20, 25, 50, 75]
+const pctBases = [40, 60, 80, 120, 200, 240, 360, 400, 500, 800]
+
+function generatePercentageDrills() {
+  return pctValues.flatMap((pct, pi) =>
+    pctBases.map((base, bi) => ({
+      id: `arith_pct_${pi}_${bi}`,
+      type: 'arithmetic',
+      question: `${pct}% of ${base} = ?`,
+      answer: (pct / 100) * base,
+      inputType: 'number',
+    }))
+  )
+}
+
+export function generateAllCards() {
+  return [
+    ...vocabularyCards,
+    ...literaryDeviceCards,
+    ...grammarCards,
+    ...mathsTechniqueCards,
+    ...strategyCards,
+    ...generateMultiplicationDrills(),
+    ...generateFractionDrills(),
+    ...generatePercentageDrills(),
+  ]
+}
