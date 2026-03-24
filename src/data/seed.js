@@ -101,7 +101,7 @@ export const literaryDeviceCards = [
   { id:'lit_013', wave:3, type:'literary_device', term:'Rhyme Scheme', definition:"The pattern of rhymes at the end of lines in a poem, shown with letters (e.g. ABAB, AABB)", example:"'Roses are red (A), violets are blue (B), sugar is sweet (A), and so are you (B)' — ABAB", confusableWith:[] },
   // Wave 4
   { id:'lit_011', wave:4, type:'literary_device', term:'Consonance', definition:'Repetition of consonant sounds within or at the end of words', example:'The black silk slacks were slick.', confusableWith:['Alliteration'] },
-  { id:'lit_012', wave:4, type:'literary_device', term:'Fable', definition:'A short story with animal characters that teaches a moral lesson', example:'The Tortoise and the Hare teaches us that slow and steady wins the race.', confusableWith:[] },
+  { id:'lit_012', wave:4, type:'literary_device', term:'Fable', definition:'A short story, often featuring animal characters, that teaches a moral lesson', example:'The Tortoise and the Hare teaches us that slow and steady wins the race.', confusableWith:[] },
   // Wave 5
   { id:'lit_006', wave:5, type:'literary_device', term:'Alliteration', definition:'Repetition of the same consonant sound at the start of nearby words', example:'Peter Piper picked a peck of pickled peppers.', confusableWith:['Consonance'] },
   { id:'lit_010', wave:5, type:'literary_device', term:'Idiom', definition:'A phrase whose meaning is different from the literal words', example:"It's raining cats and dogs.", confusableWith:[] },
