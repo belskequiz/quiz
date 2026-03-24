@@ -1914,9 +1914,9 @@
       "wave": 1,
       "type": "strategy",
       "question": "What is the Process of Elimination technique?",
-      "answer": "Read all options, cross out the ones that are clearly wrong, then choose from what remains",
+      "answer": "Read all options, cross out clearly wrong ones, then choose from what remains",
       "options": [
-        "Read all options and cross out wrong ones",
+        "Read all options, cross out clearly wrong ones, then choose from what remains",
         "Pick the longest answer",
         "Choose the first one that seems right",
         "Skip and come back later"
