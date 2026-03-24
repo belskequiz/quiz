@@ -30,6 +30,7 @@ export default function App() {
   useEffect(() => { initialise() }, [])
 
   async function initialise() {
+    const today = new Date().toISOString().slice(0, 10)
     let appData = await loadData()
     if (!appData) {
       const preservedSettings = (() => {
@@ -43,7 +44,7 @@ export default function App() {
         const res = await fetch(import.meta.env.BASE_URL + 'cards.json')
         const { cards: seedCards } = await res.json()
         appData = {
-          cards: seedCards.map(c => ({ ...initialCardState(), ...c })),
+          cards: seedCards.map(c => ({ ...initialCardState(), addedAt: today, ...c })),
           settings: preservedSettings ?? DEFAULT_SETTINGS,
         }
         await saveData(appData)
@@ -60,7 +61,7 @@ export default function App() {
         const existingIds = new Set(appData.cards.map(c => c.id))
         const newCards = remoteCards
           .filter(c => !existingIds.has(c.id))
-          .map(c => ({ ...initialCardState(), ...c }))
+          .map(c => ({ ...initialCardState(), addedAt: today, ...c }))
         if (newCards.length > 0) {
           appData = { ...appData, cards: [...appData.cards, ...newCards] }
           await saveData(appData)

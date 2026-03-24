@@ -22,9 +22,10 @@ export function buildSession(cards, recentErrorIds, todayISO, settings, excludeI
 
   const errorIdSet = new Set(errorCards.map(c => c.id))
 
-  // Priority 2: new cards (never reviewed) — shuffled so freshly added cards aren't always buried
-  const newCards = shuffle(available
-    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO)))
+  // Priority 2: new cards (never reviewed) — most recently added first, then shuffle within same date
+  const newCards = available
+    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO))
+    .sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''))
 
   const newIdSet = new Set(newCards.map(c => c.id))
 
