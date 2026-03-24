@@ -20,7 +20,7 @@ export function buildSession(cards, recentErrorIds, todayISO, settings, excludeI
   // Priority 3: new cards (never reviewed) — fill remaining capacity
   const remainingSlots = cardsPerSession - errorCards.length - dueCards.length
   const newCards = available
-    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate)
+    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO))
     .slice(0, Math.max(remainingSlots, 0))
 
   const newIdSet = new Set(newCards.map(c => c.id))

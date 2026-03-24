@@ -178,6 +178,16 @@ function generateMathsQuestion(card, allCards) {
 }
 
 function generateArithmeticQuestion(card) {
+  if (card.options) {
+    return {
+      format: 'multipleChoice',
+      question: card.question,
+      hint: '',
+      options: shuffle(card.options),
+      correctAnswer: card.answer,
+      explanation: card.explanation || null,
+    }
+  }
   return {
     format: 'numberInput',
     question: card.question,

@@ -43,7 +43,7 @@ export default function App() {
         const res = await fetch(import.meta.env.BASE_URL + 'cards.json')
         const { cards: seedCards } = await res.json()
         appData = {
-          cards: seedCards.map(c => ({ ...c, ...initialCardState() })),
+          cards: seedCards.map(c => ({ ...initialCardState(), ...c })),
           settings: preservedSettings ?? DEFAULT_SETTINGS,
         }
         await saveData(appData)
@@ -60,7 +60,7 @@ export default function App() {
         const existingIds = new Set(appData.cards.map(c => c.id))
         const newCards = remoteCards
           .filter(c => !existingIds.has(c.id))
-          .map(c => ({ ...c, ...initialCardState() }))
+          .map(c => ({ ...initialCardState(), ...c }))
         if (newCards.length > 0) {
           appData = { ...appData, cards: [...appData.cards, ...newCards] }
           await saveData(appData)
