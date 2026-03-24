@@ -2,6 +2,7 @@
   "cards": [
     {
       "id": "vocab_001",
+      "wave": 1,
       "type": "vocabulary",
       "word": "reluctant",
       "definition": "Not willing to do something; hesitant",
@@ -14,90 +15,12 @@
       "antonyms": [
         "eager",
         "willing"
-      ]
-    },
-    {
-      "id": "vocab_002",
-      "type": "vocabulary",
-      "word": "unconvinced",
-      "definition": "Not persuaded or certain about something",
-      "definitionSimple": "When you still have doubts and are not sure",
-      "exampleSentence": "He remained unconvinced by the argument.",
-      "synonyms": [
-        "doubtful",
-        "skeptical"
       ],
-      "antonyms": [
-        "convinced",
-        "certain"
-      ]
-    },
-    {
-      "id": "vocab_003",
-      "type": "vocabulary",
-      "word": "variable",
-      "definition": "Likely to change; not staying the same",
-      "definitionSimple": "Something that keeps changing",
-      "exampleSentence": "The weather in England is very variable.",
-      "synonyms": [
-        "changeable",
-        "inconsistent"
-      ],
-      "antonyms": [
-        "constant",
-        "stable"
-      ]
-    },
-    {
-      "id": "vocab_004",
-      "type": "vocabulary",
-      "word": "unreliable",
-      "definition": "Cannot be trusted or depended on",
-      "definitionSimple": "Something you cannot count on",
-      "exampleSentence": "The old car was unreliable and often broke down.",
-      "synonyms": [
-        "untrustworthy",
-        "inconsistent"
-      ],
-      "antonyms": [
-        "reliable",
-        "dependable"
-      ]
-    },
-    {
-      "id": "vocab_005",
-      "type": "vocabulary",
-      "word": "pending",
-      "definition": "Waiting to be decided or dealt with",
-      "definitionSimple": "Something not finished yet, still waiting",
-      "exampleSentence": "The decision is still pending.",
-      "synonyms": [
-        "awaiting",
-        "unresolved"
-      ],
-      "antonyms": [
-        "resolved",
-        "decided"
-      ]
-    },
-    {
-      "id": "vocab_006",
-      "type": "vocabulary",
-      "word": "indecisive",
-      "definition": "Unable to make decisions quickly or clearly",
-      "definitionSimple": "When you cannot make up your mind",
-      "exampleSentence": "She was indecisive about which book to choose.",
-      "synonyms": [
-        "hesitant",
-        "uncertain"
-      ],
-      "antonyms": [
-        "decisive",
-        "resolute"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_007",
+      "wave": 1,
       "type": "vocabulary",
       "word": "exasperated",
       "definition": "Intensely irritated and frustrated",
@@ -110,10 +33,12 @@
       "antonyms": [
         "calm",
         "pleased"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "vocab_008",
+      "wave": 1,
       "type": "vocabulary",
       "word": "nonchalant",
       "definition": "Appearing casually calm and relaxed",
@@ -126,10 +51,12 @@
       "antonyms": [
         "anxious",
         "concerned"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "vocab_009",
+      "wave": 1,
       "type": "vocabulary",
       "word": "compassionate",
       "definition": "Feeling or showing sympathy and concern for others",
@@ -142,10 +69,12 @@
       "antonyms": [
         "cruel",
         "indifferent"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "vocab_010",
+      "wave": 1,
       "type": "vocabulary",
       "word": "exploitative",
       "definition": "Treating someone unfairly to benefit yourself",
@@ -158,10 +87,12 @@
       "antonyms": [
         "fair",
         "generous"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "vocab_011",
+      "wave": 1,
       "type": "vocabulary",
       "word": "prestigious",
       "definition": "Respected and admired; having high status",
@@ -174,23 +105,12 @@
       "antonyms": [
         "unknown",
         "obscure"
-      ]
-    },
-    {
-      "id": "vocab_012",
-      "type": "vocabulary",
-      "word": "unbeknownst",
-      "definition": "Without the knowledge of someone",
-      "definitionSimple": "Without someone knowing about it",
-      "exampleSentence": "Unbeknownst to him, a surprise party was being planned.",
-      "synonyms": [
-        "unknown",
-        "secretly"
       ],
-      "antonyms": []
+      "nextReviewDate": null
     },
     {
       "id": "vocab_013",
+      "wave": 1,
       "type": "vocabulary",
       "word": "perilous",
       "definition": "Full of danger or risk",
@@ -203,10 +123,12 @@
       "antonyms": [
         "safe",
         "secure"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "vocab_014",
+      "wave": 1,
       "type": "vocabulary",
       "word": "boisterous",
       "definition": "Noisy, energetic, and cheerful",
@@ -219,81 +141,12 @@
       "antonyms": [
         "quiet",
         "calm"
-      ]
-    },
-    {
-      "id": "vocab_015",
-      "type": "vocabulary",
-      "word": "inference",
-      "definition": "A conclusion reached by reasoning from evidence",
-      "definitionSimple": "Working out something that is not directly said",
-      "exampleSentence": "From the clues, the detective made an inference.",
-      "synonyms": [
-        "deduction",
-        "conclusion"
       ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_016",
-      "type": "vocabulary",
-      "word": "enhance",
-      "definition": "To improve the quality or value of something",
-      "definitionSimple": "To make something better",
-      "exampleSentence": "The lighting enhanced the beauty of the room.",
-      "synonyms": [
-        "improve",
-        "boost"
-      ],
-      "antonyms": [
-        "worsen",
-        "diminish"
-      ]
-    },
-    {
-      "id": "vocab_017",
-      "type": "vocabulary",
-      "word": "impact",
-      "definition": "A strong effect or influence on something",
-      "definitionSimple": "A big effect on something",
-      "exampleSentence": "The storm had a huge impact on the town.",
-      "synonyms": [
-        "effect",
-        "influence"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_018",
-      "type": "vocabulary",
-      "word": "fable",
-      "definition": "A short story with a moral lesson, often with animal characters",
-      "definitionSimple": "A short story that teaches you something, often with animals",
-      "exampleSentence": "Aesop's fable about the tortoise and the hare teaches us about patience.",
-      "synonyms": [
-        "parable",
-        "tale"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_019",
-      "type": "vocabulary",
-      "word": "intrigued",
-      "definition": "Very curious and interested",
-      "definitionSimple": "Really curious and wanting to find out more",
-      "exampleSentence": "She was intrigued by the mysterious package.",
-      "synonyms": [
-        "fascinated",
-        "curious"
-      ],
-      "antonyms": [
-        "bored",
-        "indifferent"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_020",
+      "wave": 1,
       "type": "vocabulary",
       "word": "apprehensive",
       "definition": "Anxious or fearful about a future event",
@@ -306,138 +159,12 @@
       "antonyms": [
         "confident",
         "calm"
-      ]
-    },
-    {
-      "id": "vocab_021",
-      "type": "vocabulary",
-      "word": "sorrow",
-      "definition": "A feeling of deep sadness or distress",
-      "definitionSimple": "Very deep sadness",
-      "exampleSentence": "She felt great sorrow when her dog died.",
-      "synonyms": [
-        "grief",
-        "sadness"
       ],
-      "antonyms": [
-        "joy",
-        "happiness"
-      ]
-    },
-    {
-      "id": "vocab_022",
-      "type": "vocabulary",
-      "word": "gratification",
-      "definition": "Pleasure gained from getting what you wanted",
-      "definitionSimple": "The good feeling you get when something you wanted happens",
-      "exampleSentence": "Finishing the puzzle gave him great gratification.",
-      "synonyms": [
-        "satisfaction",
-        "pleasure"
-      ],
-      "antonyms": [
-        "disappointment",
-        "frustration"
-      ]
-    },
-    {
-      "id": "vocab_023",
-      "type": "vocabulary",
-      "word": "absurd",
-      "definition": "Wildly unreasonable or illogical; ridiculous",
-      "definitionSimple": "So silly it makes no sense at all",
-      "exampleSentence": "It was absurd to wear a coat in summer heat.",
-      "synonyms": [
-        "ridiculous",
-        "preposterous"
-      ],
-      "antonyms": [
-        "reasonable",
-        "sensible"
-      ]
-    },
-    {
-      "id": "vocab_024",
-      "type": "vocabulary",
-      "word": "nonsensical",
-      "definition": "Making no sense; absurd",
-      "definitionSimple": "Completely makes no sense",
-      "exampleSentence": "His nonsensical explanation confused everyone.",
-      "synonyms": [
-        "absurd",
-        "illogical"
-      ],
-      "antonyms": [
-        "sensible",
-        "logical"
-      ]
-    },
-    {
-      "id": "vocab_025",
-      "type": "vocabulary",
-      "word": "infallible",
-      "definition": "Incapable of making mistakes; never wrong",
-      "definitionSimple": "Always right, never ever wrong",
-      "exampleSentence": "Nobody is infallible — everyone makes mistakes eventually.",
-      "synonyms": [
-        "faultless",
-        "perfect"
-      ],
-      "antonyms": [
-        "fallible",
-        "imperfect"
-      ]
-    },
-    {
-      "id": "vocab_026",
-      "type": "vocabulary",
-      "word": "trudged",
-      "definition": "Walked slowly and heavily, as if very tired",
-      "definitionSimple": "Walked in a slow, tired, heavy way",
-      "exampleSentence": "She trudged home through the snow.",
-      "synonyms": [
-        "plodded",
-        "dragged"
-      ],
-      "antonyms": [
-        "sprinted",
-        "dashed"
-      ]
-    },
-    {
-      "id": "vocab_027",
-      "type": "vocabulary",
-      "word": "defiantly",
-      "definition": "In a way that boldly resists or challenges authority",
-      "definitionSimple": "In a way that shows you refuse to obey or back down",
-      "exampleSentence": "He defiantly refused to apologise.",
-      "synonyms": [
-        "boldly",
-        "rebelliously"
-      ],
-      "antonyms": [
-        "obediently",
-        "submissively"
-      ]
-    },
-    {
-      "id": "vocab_028",
-      "type": "vocabulary",
-      "word": "eroded",
-      "definition": "Gradually worn away over time",
-      "definitionSimple": "Slowly worn away bit by bit",
-      "exampleSentence": "The cliffs had been eroded by the sea over centuries.",
-      "synonyms": [
-        "worn",
-        "deteriorated"
-      ],
-      "antonyms": [
-        "built",
-        "strengthened"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_029",
+      "wave": 1,
       "type": "vocabulary",
       "word": "oppressive",
       "definition": "Cruel, harsh, and controlling; also uncomfortably heavy",
@@ -450,71 +177,12 @@
       "antonyms": [
         "gentle",
         "fair"
-      ]
-    },
-    {
-      "id": "vocab_030",
-      "type": "vocabulary",
-      "word": "solitary",
-      "definition": "Done alone; existing alone without companions",
-      "definitionSimple": "Alone, by yourself, with nobody else",
-      "exampleSentence": "He preferred solitary walks in the woods.",
-      "synonyms": [
-        "alone",
-        "isolated"
       ],
-      "antonyms": [
-        "social",
-        "accompanied"
-      ]
-    },
-    {
-      "id": "vocab_031",
-      "type": "vocabulary",
-      "word": "pity",
-      "definition": "A feeling of sorrow for someone else's misfortune",
-      "definitionSimple": "Feeling sad because something bad happened to someone else",
-      "exampleSentence": "She felt pity for the stray cat in the rain.",
-      "synonyms": [
-        "sympathy",
-        "compassion"
-      ],
-      "antonyms": [
-        "indifference",
-        "cruelty"
-      ]
-    },
-    {
-      "id": "vocab_032",
-      "type": "vocabulary",
-      "word": "resonate",
-      "definition": "To have a strong effect or meaning for someone",
-      "definitionSimple": "When something connects with you and feels meaningful",
-      "exampleSentence": "The story resonated with everyone in the room.",
-      "synonyms": [
-        "connect",
-        "strike a chord"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_033",
-      "type": "vocabulary",
-      "word": "obnoxiously",
-      "definition": "In an extremely unpleasant or annoying way",
-      "definitionSimple": "In a way that is really annoying and hard to ignore",
-      "exampleSentence": "He laughed obnoxiously during the film.",
-      "synonyms": [
-        "annoyingly",
-        "offensively"
-      ],
-      "antonyms": [
-        "pleasantly",
-        "politely"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_034",
+      "wave": 1,
       "type": "vocabulary",
       "word": "foreboding",
       "definition": "A strong feeling that something bad is about to happen",
@@ -527,119 +195,12 @@
       "antonyms": [
         "hope",
         "optimism"
-      ]
-    },
-    {
-      "id": "vocab_035",
-      "type": "vocabulary",
-      "word": "supernatural",
-      "definition": "Beyond normal natural explanation; magical or ghostly",
-      "definitionSimple": "Things that science cannot explain, like ghosts or magic",
-      "exampleSentence": "The old house was said to have supernatural powers.",
-      "synonyms": [
-        "paranormal",
-        "unearthly"
       ],
-      "antonyms": [
-        "natural",
-        "normal"
-      ]
-    },
-    {
-      "id": "vocab_036",
-      "type": "vocabulary",
-      "word": "unvaried",
-      "definition": "Lacking variety; always the same",
-      "definitionSimple": "Always exactly the same, boring and repetitive",
-      "exampleSentence": "The unvaried menu made mealtimes dull.",
-      "synonyms": [
-        "monotonous",
-        "repetitive"
-      ],
-      "antonyms": [
-        "varied",
-        "diverse"
-      ]
-    },
-    {
-      "id": "vocab_037",
-      "type": "vocabulary",
-      "word": "practical",
-      "definition": "Concerned with real situations rather than theory",
-      "definitionSimple": "Useful in real life, not just in ideas",
-      "exampleSentence": "A raincoat is a practical choice for English weather.",
-      "synonyms": [
-        "useful",
-        "sensible"
-      ],
-      "antonyms": [
-        "impractical",
-        "theoretical"
-      ]
-    },
-    {
-      "id": "vocab_038",
-      "type": "vocabulary",
-      "word": "confections",
-      "definition": "Elaborately decorated sweet foods or cakes",
-      "definitionSimple": "Fancy sweets, chocolates, or decorated cakes",
-      "exampleSentence": "The bakery window was full of beautiful confections.",
-      "synonyms": [
-        "sweets",
-        "delicacies"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_039",
-      "type": "vocabulary",
-      "word": "camaraderie",
-      "definition": "Mutual trust and friendship among people",
-      "definitionSimple": "The warm, friendly feeling between people in a group",
-      "exampleSentence": "There was great camaraderie among the team.",
-      "synonyms": [
-        "friendship",
-        "fellowship"
-      ],
-      "antonyms": [
-        "hostility",
-        "rivalry"
-      ]
-    },
-    {
-      "id": "vocab_040",
-      "type": "vocabulary",
-      "word": "ingenuity",
-      "definition": "The quality of being clever, original, and inventive",
-      "definitionSimple": "Being really clever at finding creative solutions",
-      "exampleSentence": "The engineer solved the problem with great ingenuity.",
-      "synonyms": [
-        "cleverness",
-        "creativity"
-      ],
-      "antonyms": [
-        "stupidity",
-        "uncreative"
-      ]
-    },
-    {
-      "id": "vocab_041",
-      "type": "vocabulary",
-      "word": "enduring",
-      "definition": "Lasting for a long time; continuing",
-      "definitionSimple": "Something that keeps going for a long time",
-      "exampleSentence": "Their enduring friendship lasted fifty years.",
-      "synonyms": [
-        "lasting",
-        "persistent"
-      ],
-      "antonyms": [
-        "brief",
-        "temporary"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_042",
+      "wave": 1,
       "type": "vocabulary",
       "word": "controversial",
       "definition": "Causing strong disagreement or argument",
@@ -652,52 +213,12 @@
       "antonyms": [
         "uncontroversial",
         "accepted"
-      ]
-    },
-    {
-      "id": "vocab_043",
-      "type": "vocabulary",
-      "word": "garments",
-      "definition": "Pieces of clothing",
-      "definitionSimple": "Items of clothing",
-      "exampleSentence": "She packed her finest garments for the trip.",
-      "synonyms": [
-        "clothes",
-        "attire"
       ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_044",
-      "type": "vocabulary",
-      "word": "accessible",
-      "definition": "Easy to reach, use, or understand",
-      "definitionSimple": "Easy to get to or use",
-      "exampleSentence": "The information was clearly written and accessible to all.",
-      "synonyms": [
-        "available",
-        "reachable"
-      ],
-      "antonyms": [
-        "inaccessible",
-        "unreachable"
-      ]
-    },
-    {
-      "id": "vocab_045",
-      "type": "vocabulary",
-      "word": "logistics",
-      "definition": "The detailed planning and organisation of an activity",
-      "definitionSimple": "The practical planning and organisation of how to do something",
-      "exampleSentence": "Organising the school trip involved complex logistics.",
-      "synonyms": [
-        "organisation",
-        "planning"
-      ],
-      "antonyms": []
+      "nextReviewDate": null
     },
     {
       "id": "vocab_046",
+      "wave": 1,
       "type": "vocabulary",
       "word": "unequivocal",
       "definition": "Leaving no doubt; completely clear",
@@ -710,164 +231,12 @@
       "antonyms": [
         "ambiguous",
         "unclear"
-      ]
-    },
-    {
-      "id": "vocab_047",
-      "type": "vocabulary",
-      "word": "reconstructed",
-      "definition": "Built or created again after being damaged or destroyed",
-      "definitionSimple": "Built again after being destroyed",
-      "exampleSentence": "The ancient temple was carefully reconstructed.",
-      "synonyms": [
-        "rebuilt",
-        "restored"
       ],
-      "antonyms": [
-        "demolished",
-        "destroyed"
-      ]
-    },
-    {
-      "id": "vocab_048",
-      "type": "vocabulary",
-      "word": "optimistic",
-      "definition": "Hopeful and confident about the future",
-      "definitionSimple": "Believing good things will happen",
-      "exampleSentence": "She was optimistic about passing the exam.",
-      "synonyms": [
-        "hopeful",
-        "positive"
-      ],
-      "antonyms": [
-        "pessimistic",
-        "negative"
-      ]
-    },
-    {
-      "id": "vocab_049",
-      "type": "vocabulary",
-      "word": "fowl",
-      "definition": "A bird, especially one kept for eggs or meat (e.g. chicken)",
-      "definitionSimple": "A bird like a chicken or duck",
-      "exampleSentence": "The farmer kept several different types of fowl.",
-      "synonyms": [
-        "bird",
-        "poultry"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_050",
-      "type": "vocabulary",
-      "word": "unassumingly",
-      "definition": "In a modest way, without drawing attention to oneself",
-      "definitionSimple": "In a quiet, modest way without showing off",
-      "exampleSentence": "He unassumingly helped clear the tables after dinner.",
-      "synonyms": [
-        "modestly",
-        "quietly"
-      ],
-      "antonyms": [
-        "arrogantly",
-        "boastfully"
-      ]
-    },
-    {
-      "id": "vocab_051",
-      "type": "vocabulary",
-      "word": "analytical",
-      "definition": "Using careful, logical analysis to examine things",
-      "definitionSimple": "Thinking carefully and logically about things",
-      "exampleSentence": "She had an analytical mind and loved solving puzzles.",
-      "synonyms": [
-        "logical",
-        "methodical"
-      ],
-      "antonyms": [
-        "illogical",
-        "haphazard"
-      ]
-    },
-    {
-      "id": "vocab_052",
-      "type": "vocabulary",
-      "word": "financial",
-      "definition": "Relating to money and how it is managed",
-      "definitionSimple": "To do with money",
-      "exampleSentence": "He made a careful financial plan before spending.",
-      "synonyms": [
-        "monetary",
-        "economic"
-      ],
-      "antonyms": []
-    },
-    {
-      "id": "vocab_053",
-      "type": "vocabulary",
-      "word": "blunt",
-      "definition": "Direct and outspoken without being tactful; also not sharp",
-      "definitionSimple": "Saying things in a very direct way without being careful about feelings",
-      "exampleSentence": "His blunt comment hurt her feelings.",
-      "synonyms": [
-        "direct",
-        "frank"
-      ],
-      "antonyms": [
-        "tactful",
-        "diplomatic"
-      ]
-    },
-    {
-      "id": "vocab_054",
-      "type": "vocabulary",
-      "word": "unrelenting",
-      "definition": "Never stopping or getting less intense",
-      "definitionSimple": "Never stopping, always continuing with full force",
-      "exampleSentence": "The unrelenting rain lasted all week.",
-      "synonyms": [
-        "relentless",
-        "persistent"
-      ],
-      "antonyms": [
-        "stopping",
-        "intermittent"
-      ]
-    },
-    {
-      "id": "vocab_055",
-      "type": "vocabulary",
-      "word": "pressing",
-      "definition": "Requiring immediate attention; urgent",
-      "definitionSimple": "Something that needs to be done right now",
-      "exampleSentence": "There is a pressing need to fix the leaking roof.",
-      "synonyms": [
-        "urgent",
-        "critical"
-      ],
-      "antonyms": [
-        "unimportant",
-        "trivial"
-      ]
-    },
-    {
-      "id": "vocab_056",
-      "type": "vocabulary",
-      "word": "neglected",
-      "definition": "Not given proper care or attention",
-      "definitionSimple": "Left without being looked after properly",
-      "exampleSentence": "The neglected garden was full of weeds.",
-      "synonyms": [
-        "abandoned",
-        "ignored"
-      ],
-      "antonyms": [
-        "cared for",
-        "tended"
-      ]
+      "nextReviewDate": null
     },
     {
       "id": "vocab_057",
+      "wave": 1,
       "type": "vocabulary",
       "word": "compelling",
       "definition": "Evoking strong interest or admiration; convincing",
@@ -880,74 +249,228 @@
       "antonyms": [
         "boring",
         "unconvincing"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
-      "id": "vocab_058",
+      "id": "vocab_023",
+      "wave": 2,
       "type": "vocabulary",
-      "word": "urgent",
-      "definition": "Requiring immediate action or attention",
-      "definitionSimple": "Needs to happen right now",
-      "exampleSentence": "There was an urgent message waiting for him.",
+      "word": "absurd",
+      "definition": "Wildly unreasonable or illogical; ridiculous",
+      "definitionSimple": "So silly it makes no sense at all",
+      "exampleSentence": "It was absurd to wear a coat in summer heat.",
       "synonyms": [
-        "pressing",
-        "critical"
+        "ridiculous",
+        "preposterous"
       ],
       "antonyms": [
-        "unimportant",
-        "leisurely"
-      ]
+        "reasonable",
+        "sensible"
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "vocab_059",
+      "id": "vocab_024",
+      "wave": 2,
       "type": "vocabulary",
-      "word": "dismally",
-      "definition": "In a way that is very bad or unsuccessful",
-      "definitionSimple": "Really badly, in a sad and disappointing way",
-      "exampleSentence": "He dismally failed the test after not revising.",
+      "word": "nonsensical",
+      "definition": "Making no sense; absurd",
+      "definitionSimple": "Completely makes no sense",
+      "exampleSentence": "His nonsensical explanation confused everyone.",
       "synonyms": [
-        "poorly",
-        "terribly"
+        "absurd",
+        "illogical"
       ],
       "antonyms": [
-        "brilliantly",
-        "successfully"
-      ]
+        "sensible",
+        "logical"
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "vocab_060",
+      "id": "vocab_025",
+      "wave": 2,
       "type": "vocabulary",
-      "word": "luscious",
-      "definition": "Richly pleasing to the taste or senses",
-      "definitionSimple": "Deliciously rich and tasty",
-      "exampleSentence": "The luscious strawberries were perfectly ripe.",
+      "word": "infallible",
+      "definition": "Incapable of making mistakes; never wrong",
+      "definitionSimple": "Always right, never ever wrong",
+      "exampleSentence": "Nobody is infallible — everyone makes mistakes eventually.",
       "synonyms": [
-        "delicious",
-        "rich"
+        "faultless",
+        "perfect"
       ],
       "antonyms": [
-        "bland",
-        "unpleasant"
-      ]
+        "fallible",
+        "imperfect"
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "vocab_061",
+      "id": "vocab_027",
+      "wave": 2,
       "type": "vocabulary",
-      "word": "overlooked",
-      "definition": "Failed to notice or consider; also to look over from above",
-      "definitionSimple": "Not noticed or missed out accidentally",
-      "exampleSentence": "An important clue had been overlooked by the detective.",
+      "word": "defiantly",
+      "definition": "In a way that boldly resists or challenges authority",
+      "definitionSimple": "In a way that shows you refuse to obey or back down",
+      "exampleSentence": "He defiantly refused to apologise.",
       "synonyms": [
-        "missed",
-        "ignored"
+        "boldly",
+        "rebelliously"
       ],
       "antonyms": [
-        "noticed",
-        "identified"
-      ]
+        "obediently",
+        "submissively"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_028",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "eroded",
+      "definition": "Gradually worn away over time",
+      "definitionSimple": "Slowly worn away bit by bit",
+      "exampleSentence": "The cliffs had been eroded by the sea over centuries.",
+      "synonyms": [
+        "worn",
+        "deteriorated"
+      ],
+      "antonyms": [
+        "built",
+        "strengthened"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_030",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "solitary",
+      "definition": "Done alone; existing alone without companions",
+      "definitionSimple": "Alone, by yourself, with nobody else",
+      "exampleSentence": "He preferred solitary walks in the woods.",
+      "synonyms": [
+        "alone",
+        "isolated"
+      ],
+      "antonyms": [
+        "social",
+        "accompanied"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_035",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "supernatural",
+      "definition": "Beyond normal natural explanation; magical or ghostly",
+      "definitionSimple": "Things that science cannot explain, like ghosts or magic",
+      "exampleSentence": "The old house was said to have supernatural powers.",
+      "synonyms": [
+        "paranormal",
+        "unearthly"
+      ],
+      "antonyms": [
+        "natural",
+        "normal"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_039",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "camaraderie",
+      "definition": "Mutual trust and friendship among people",
+      "definitionSimple": "The warm, friendly feeling between people in a group",
+      "exampleSentence": "There was great camaraderie among the team.",
+      "synonyms": [
+        "friendship",
+        "fellowship"
+      ],
+      "antonyms": [
+        "hostility",
+        "rivalry"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_040",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "ingenuity",
+      "definition": "The quality of being clever, original, and inventive",
+      "definitionSimple": "Being really clever at finding creative solutions",
+      "exampleSentence": "The engineer solved the problem with great ingenuity.",
+      "synonyms": [
+        "cleverness",
+        "creativity"
+      ],
+      "antonyms": [
+        "stupidity",
+        "uncreative"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_041",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "enduring",
+      "definition": "Lasting for a long time; continuing",
+      "definitionSimple": "Something that keeps going for a long time",
+      "exampleSentence": "Their enduring friendship lasted fifty years.",
+      "synonyms": [
+        "lasting",
+        "persistent"
+      ],
+      "antonyms": [
+        "brief",
+        "temporary"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_051",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "analytical",
+      "definition": "Using careful, logical analysis to examine things",
+      "definitionSimple": "Thinking carefully and logically about things",
+      "exampleSentence": "She had an analytical mind and loved solving puzzles.",
+      "synonyms": [
+        "logical",
+        "methodical"
+      ],
+      "antonyms": [
+        "illogical",
+        "haphazard"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_054",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "unrelenting",
+      "definition": "Never stopping or getting less intense",
+      "definitionSimple": "Never stopping, always continuing with full force",
+      "exampleSentence": "The unrelenting rain lasted all week.",
+      "synonyms": [
+        "relentless",
+        "persistent"
+      ],
+      "antonyms": [
+        "stopping",
+        "intermittent"
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "vocab_062",
+      "wave": 2,
       "type": "vocabulary",
       "word": "skeptical",
       "definition": "Not easily convinced; having doubts",
@@ -960,10 +483,12 @@
       "antonyms": [
         "convinced",
         "trusting"
-      ]
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "vocab_063",
+      "wave": 2,
       "type": "vocabulary",
       "word": "agitated",
       "definition": "Feeling troubled or nervous; anxious",
@@ -976,10 +501,444 @@
       "antonyms": [
         "calm",
         "relaxed"
-      ]
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_037",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "practical",
+      "definition": "Concerned with real situations rather than theory",
+      "definitionSimple": "Useful in real life, not just in ideas",
+      "exampleSentence": "A raincoat is a practical choice for English weather.",
+      "synonyms": [
+        "useful",
+        "sensible"
+      ],
+      "antonyms": [
+        "impractical",
+        "theoretical"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_043",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "garments",
+      "definition": "Pieces of clothing",
+      "definitionSimple": "Items of clothing",
+      "exampleSentence": "She packed her finest garments for the trip.",
+      "synonyms": [
+        "clothes",
+        "attire"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_044",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "accessible",
+      "definition": "Easy to reach, use, or understand",
+      "definitionSimple": "Easy to get to or use",
+      "exampleSentence": "The information was clearly written and accessible to all.",
+      "synonyms": [
+        "available",
+        "reachable"
+      ],
+      "antonyms": [
+        "inaccessible",
+        "unreachable"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_045",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "logistics",
+      "definition": "The detailed planning and organisation of an activity",
+      "definitionSimple": "The practical planning and organisation of how to do something",
+      "exampleSentence": "Organising the school trip involved complex logistics.",
+      "synonyms": [
+        "organisation",
+        "planning"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_047",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "reconstructed",
+      "definition": "Built or created again after being damaged or destroyed",
+      "definitionSimple": "Built again after being destroyed",
+      "exampleSentence": "The ancient temple was carefully reconstructed.",
+      "synonyms": [
+        "rebuilt",
+        "restored"
+      ],
+      "antonyms": [
+        "demolished",
+        "destroyed"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_048",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "optimistic",
+      "definition": "Hopeful and confident about the future",
+      "definitionSimple": "Believing good things will happen",
+      "exampleSentence": "She was optimistic about passing the exam.",
+      "synonyms": [
+        "hopeful",
+        "positive"
+      ],
+      "antonyms": [
+        "pessimistic",
+        "negative"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_049",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "fowl",
+      "definition": "A bird, especially one kept for eggs or meat (e.g. chicken)",
+      "definitionSimple": "A bird like a chicken or duck",
+      "exampleSentence": "The farmer kept several different types of fowl.",
+      "synonyms": [
+        "bird",
+        "poultry"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_050",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "unassumingly",
+      "definition": "In a modest way, without drawing attention to oneself",
+      "definitionSimple": "In a quiet, modest way without showing off",
+      "exampleSentence": "He unassumingly helped clear the tables after dinner.",
+      "synonyms": [
+        "modestly",
+        "quietly"
+      ],
+      "antonyms": [
+        "arrogantly",
+        "boastfully"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_052",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "financial",
+      "definition": "Relating to money and how it is managed",
+      "definitionSimple": "To do with money",
+      "exampleSentence": "He made a careful financial plan before spending.",
+      "synonyms": [
+        "monetary",
+        "economic"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_053",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "blunt",
+      "definition": "Direct and outspoken without being tactful; also not sharp",
+      "definitionSimple": "Saying things in a very direct way without being careful about feelings",
+      "exampleSentence": "His blunt comment hurt her feelings.",
+      "synonyms": [
+        "direct",
+        "frank"
+      ],
+      "antonyms": [
+        "tactful",
+        "diplomatic"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_055",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "pressing",
+      "definition": "Requiring immediate attention; urgent",
+      "definitionSimple": "Something that needs to be done right now",
+      "exampleSentence": "There is a pressing need to fix the leaking roof.",
+      "synonyms": [
+        "urgent",
+        "critical"
+      ],
+      "antonyms": [
+        "unimportant",
+        "trivial"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_056",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "neglected",
+      "definition": "Not given proper care or attention",
+      "definitionSimple": "Left without being looked after properly",
+      "exampleSentence": "The neglected garden was full of weeds.",
+      "synonyms": [
+        "abandoned",
+        "ignored"
+      ],
+      "antonyms": [
+        "cared for",
+        "tended"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_059",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "dismally",
+      "definition": "In a way that is very bad or unsuccessful",
+      "definitionSimple": "Really badly, in a sad and disappointing way",
+      "exampleSentence": "He dismally failed the test after not revising.",
+      "synonyms": [
+        "poorly",
+        "terribly"
+      ],
+      "antonyms": [
+        "brilliantly",
+        "successfully"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_060",
+      "wave": 3,
+      "type": "vocabulary",
+      "word": "luscious",
+      "definition": "Richly pleasing to the taste or senses",
+      "definitionSimple": "Deliciously rich and tasty",
+      "exampleSentence": "The luscious strawberries were perfectly ripe.",
+      "synonyms": [
+        "delicious",
+        "rich"
+      ],
+      "antonyms": [
+        "bland",
+        "unpleasant"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "vocab_002",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "unconvinced",
+      "definition": "Not persuaded or certain about something",
+      "definitionSimple": "When you still have doubts and are not sure",
+      "exampleSentence": "He remained unconvinced by the argument.",
+      "synonyms": [
+        "doubtful",
+        "skeptical"
+      ],
+      "antonyms": [
+        "convinced",
+        "certain"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_003",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "variable",
+      "definition": "Likely to change; not staying the same",
+      "definitionSimple": "Something that keeps changing",
+      "exampleSentence": "The weather in England is very variable.",
+      "synonyms": [
+        "changeable",
+        "inconsistent"
+      ],
+      "antonyms": [
+        "constant",
+        "stable"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_004",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "unreliable",
+      "definition": "Cannot be trusted or depended on",
+      "definitionSimple": "Something you cannot count on",
+      "exampleSentence": "The old car was unreliable and often broke down.",
+      "synonyms": [
+        "untrustworthy",
+        "inconsistent"
+      ],
+      "antonyms": [
+        "reliable",
+        "dependable"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_005",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "pending",
+      "definition": "Waiting to be decided or dealt with",
+      "definitionSimple": "Something not finished yet, still waiting",
+      "exampleSentence": "The decision is still pending.",
+      "synonyms": [
+        "awaiting",
+        "unresolved"
+      ],
+      "antonyms": [
+        "resolved",
+        "decided"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_006",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "indecisive",
+      "definition": "Unable to make decisions quickly or clearly",
+      "definitionSimple": "When you cannot make up your mind",
+      "exampleSentence": "She was indecisive about which book to choose.",
+      "synonyms": [
+        "hesitant",
+        "uncertain"
+      ],
+      "antonyms": [
+        "decisive",
+        "resolute"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_012",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "unbeknownst",
+      "definition": "Without the knowledge of someone",
+      "definitionSimple": "Without someone knowing about it",
+      "exampleSentence": "Unbeknownst to him, a surprise party was being planned.",
+      "synonyms": [
+        "unknown",
+        "secretly"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_019",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "intrigued",
+      "definition": "Very curious and interested",
+      "definitionSimple": "Really curious and wanting to find out more",
+      "exampleSentence": "She was intrigued by the mysterious package.",
+      "synonyms": [
+        "fascinated",
+        "curious"
+      ],
+      "antonyms": [
+        "bored",
+        "indifferent"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_021",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "sorrow",
+      "definition": "A feeling of deep sadness or distress",
+      "definitionSimple": "Very deep sadness",
+      "exampleSentence": "She felt great sorrow when her dog died.",
+      "synonyms": [
+        "grief",
+        "sadness"
+      ],
+      "antonyms": [
+        "joy",
+        "happiness"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_038",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "confections",
+      "definition": "Elaborately decorated sweet foods or cakes",
+      "definitionSimple": "Fancy sweets, chocolates, or decorated cakes",
+      "exampleSentence": "The bakery window was full of beautiful confections.",
+      "synonyms": [
+        "sweets",
+        "delicacies"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_058",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "urgent",
+      "definition": "Requiring immediate action or attention",
+      "definitionSimple": "Needs to happen right now",
+      "exampleSentence": "There was an urgent message waiting for him.",
+      "synonyms": [
+        "pressing",
+        "critical"
+      ],
+      "antonyms": [
+        "unimportant",
+        "leisurely"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_061",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "overlooked",
+      "definition": "Failed to notice or consider; also to look over from above",
+      "definitionSimple": "Not noticed or missed out accidentally",
+      "exampleSentence": "An important clue had been overlooked by the detective.",
+      "synonyms": [
+        "missed",
+        "ignored"
+      ],
+      "antonyms": [
+        "noticed",
+        "identified"
+      ],
+      "nextReviewDate": "2026-04-14"
     },
     {
       "id": "vocab_064",
+      "wave": 4,
       "type": "vocabulary",
       "word": "proponent",
       "definition": "A person who supports or argues for something",
@@ -992,10 +951,195 @@
       "antonyms": [
         "opponent",
         "critic"
-      ]
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_069",
+      "wave": 4,
+      "type": "vocabulary",
+      "word": "fund",
+      "definition": "A sum of money for a specific purpose",
+      "definitionSimple": "Money saved or collected for a special reason",
+      "exampleSentence": "They set up a fund to help the flood victims.",
+      "synonyms": [
+        "reserve",
+        "pool"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "vocab_015",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "inference",
+      "definition": "A conclusion reached by reasoning from evidence",
+      "definitionSimple": "Working out something that is not directly said",
+      "exampleSentence": "From the clues, the detective made an inference.",
+      "synonyms": [
+        "deduction",
+        "conclusion"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_016",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "enhance",
+      "definition": "To improve the quality or value of something",
+      "definitionSimple": "To make something better",
+      "exampleSentence": "The lighting enhanced the beauty of the room.",
+      "synonyms": [
+        "improve",
+        "boost"
+      ],
+      "antonyms": [
+        "worsen",
+        "diminish"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_017",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "impact",
+      "definition": "A strong effect or influence on something",
+      "definitionSimple": "A big effect on something",
+      "exampleSentence": "The storm had a huge impact on the town.",
+      "synonyms": [
+        "effect",
+        "influence"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_018",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "fable",
+      "definition": "A short story with a moral lesson, often with animal characters",
+      "definitionSimple": "A short story that teaches you something, often with animals",
+      "exampleSentence": "Aesop's fable about the tortoise and the hare teaches us about patience.",
+      "synonyms": [
+        "parable",
+        "tale"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_022",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "gratification",
+      "definition": "Pleasure gained from getting what you wanted",
+      "definitionSimple": "The good feeling you get when something you wanted happens",
+      "exampleSentence": "Finishing the puzzle gave him great gratification.",
+      "synonyms": [
+        "satisfaction",
+        "pleasure"
+      ],
+      "antonyms": [
+        "disappointment",
+        "frustration"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_026",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "trudged",
+      "definition": "Walked slowly and heavily, as if very tired",
+      "definitionSimple": "Walked in a slow, tired, heavy way",
+      "exampleSentence": "She trudged home through the snow.",
+      "synonyms": [
+        "plodded",
+        "dragged"
+      ],
+      "antonyms": [
+        "sprinted",
+        "dashed"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_031",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "pity",
+      "definition": "A feeling of sorrow for someone else's misfortune",
+      "definitionSimple": "Feeling sad because something bad happened to someone else",
+      "exampleSentence": "She felt pity for the stray cat in the rain.",
+      "synonyms": [
+        "sympathy",
+        "compassion"
+      ],
+      "antonyms": [
+        "indifference",
+        "cruelty"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_032",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "resonate",
+      "definition": "To have a strong effect or meaning for someone",
+      "definitionSimple": "When something connects with you and feels meaningful",
+      "exampleSentence": "The story resonated with everyone in the room.",
+      "synonyms": [
+        "connect",
+        "strike a chord"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_033",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "obnoxiously",
+      "definition": "In an extremely unpleasant or annoying way",
+      "definitionSimple": "In a way that is really annoying and hard to ignore",
+      "exampleSentence": "He laughed obnoxiously during the film.",
+      "synonyms": [
+        "annoyingly",
+        "offensively"
+      ],
+      "antonyms": [
+        "pleasantly",
+        "politely"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "vocab_036",
+      "wave": 5,
+      "type": "vocabulary",
+      "word": "unvaried",
+      "definition": "Lacking variety; always the same",
+      "definitionSimple": "Always exactly the same, boring and repetitive",
+      "exampleSentence": "The unvaried menu made mealtimes dull.",
+      "synonyms": [
+        "monotonous",
+        "repetitive"
+      ],
+      "antonyms": [
+        "varied",
+        "diverse"
+      ],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "vocab_065",
+      "wave": 5,
       "type": "vocabulary",
       "word": "enlighten",
       "definition": "To give someone greater knowledge or understanding",
@@ -1008,10 +1152,12 @@
       "antonyms": [
         "confuse",
         "mislead"
-      ]
+      ],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "vocab_066",
+      "wave": 5,
       "type": "vocabulary",
       "word": "mirth",
       "definition": "Amusement or laughter",
@@ -1024,10 +1170,12 @@
       "antonyms": [
         "sorrow",
         "sadness"
-      ]
+      ],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "vocab_067",
+      "wave": 5,
       "type": "vocabulary",
       "word": "laddered",
       "definition": "Having a run or ladder in (a stocking or tights)",
@@ -1037,10 +1185,12 @@
         "torn",
         "ripped"
       ],
-      "antonyms": []
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "vocab_068",
+      "wave": 5,
       "type": "vocabulary",
       "word": "propose",
       "definition": "To put forward an idea or plan for consideration",
@@ -1053,23 +1203,12 @@
       "antonyms": [
         "oppose",
         "reject"
-      ]
-    },
-    {
-      "id": "vocab_069",
-      "type": "vocabulary",
-      "word": "fund",
-      "definition": "A sum of money for a specific purpose",
-      "definitionSimple": "Money saved or collected for a special reason",
-      "exampleSentence": "They set up a fund to help the flood victims.",
-      "synonyms": [
-        "reserve",
-        "pool"
       ],
-      "antonyms": []
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "vocab_070",
+      "wave": 5,
       "type": "vocabulary",
       "word": "household",
       "definition": "Relating to the home and the people in it",
@@ -1079,82 +1218,88 @@
         "domestic",
         "home"
       ],
-      "antonyms": []
+      "antonyms": [],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "lit_001",
+      "wave": 1,
       "type": "literary_device",
       "term": "Simile",
       "definition": "Comparing two things using 'like' or 'as'",
       "example": "Her eyes were like stars in the night sky.",
       "confusableWith": [
         "Metaphor"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "lit_002",
+      "wave": 1,
       "type": "literary_device",
       "term": "Metaphor",
       "definition": "Describing something as if it actually is something else (without using like or as)",
       "example": "The classroom was a zoo after lunch.",
       "confusableWith": [
         "Simile"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "lit_003",
+      "wave": 1,
       "type": "literary_device",
       "term": "Personification",
       "definition": "Giving human feelings or actions to non-human things",
       "example": "The wind whispered through the trees.",
       "confusableWith": [
         "Metaphor"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "lit_004",
+      "wave": 2,
       "type": "literary_device",
       "term": "Hyperbole",
       "definition": "Extreme exaggeration used for effect",
       "example": "I've told you a million times!",
-      "confusableWith": []
+      "confusableWith": [],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "lit_005",
+      "wave": 2,
       "type": "literary_device",
       "term": "Onomatopoeia",
       "definition": "A word that sounds like what it describes",
       "example": "The bees buzzed around the flower.",
-      "confusableWith": []
-    },
-    {
-      "id": "lit_006",
-      "type": "literary_device",
-      "term": "Alliteration",
-      "definition": "Repetition of the same consonant sound at the start of nearby words",
-      "example": "Peter Piper picked a peck of pickled peppers.",
-      "confusableWith": [
-        "Consonance"
-      ]
+      "confusableWith": [],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "lit_007",
+      "wave": 2,
       "type": "literary_device",
       "term": "Juxtaposition",
       "definition": "Placing two contrasting things close together to highlight the difference",
       "example": "It was the best of times, it was the worst of times.",
-      "confusableWith": []
+      "confusableWith": [],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "lit_008",
+      "wave": 3,
       "type": "literary_device",
       "term": "Repetition",
       "definition": "Deliberately repeating a word or phrase for emphasis",
       "example": "We shall fight on the beaches, we shall fight on the landing grounds.",
-      "confusableWith": []
+      "confusableWith": [],
+      "nextReviewDate": "2026-04-07"
     },
     {
       "id": "lit_009",
+      "wave": 3,
       "type": "literary_device",
       "term": "Analogy",
       "definition": "Explaining something by comparing it to something more familiar",
@@ -1162,309 +1307,76 @@
       "confusableWith": [
         "Simile",
         "Metaphor"
-      ]
+      ],
+      "nextReviewDate": "2026-04-07"
     },
     {
-      "id": "lit_010",
+      "id": "lit_013",
+      "wave": 3,
       "type": "literary_device",
-      "term": "Idiom",
-      "definition": "A phrase whose meaning is different from the literal words",
-      "example": "It's raining cats and dogs.",
-      "confusableWith": []
+      "term": "Rhyme Scheme",
+      "definition": "The pattern of rhymes at the end of lines in a poem, shown with letters (e.g. ABAB, AABB)",
+      "example": "'Roses are red (A), violets are blue (B), sugar is sweet (A), and so are you (B)' — ABAB",
+      "confusableWith": [],
+      "nextReviewDate": "2026-04-07"
     },
     {
       "id": "lit_011",
+      "wave": 4,
       "type": "literary_device",
       "term": "Consonance",
       "definition": "Repetition of consonant sounds within or at the end of words",
       "example": "The black silk slacks were slick.",
       "confusableWith": [
         "Alliteration"
-      ]
+      ],
+      "nextReviewDate": "2026-04-14"
     },
     {
       "id": "lit_012",
+      "wave": 4,
       "type": "literary_device",
       "term": "Fable",
       "definition": "A short story with animal characters that teaches a moral lesson",
       "example": "The Tortoise and the Hare teaches us that slow and steady wins the race.",
-      "confusableWith": []
+      "confusableWith": [],
+      "nextReviewDate": "2026-04-14"
     },
     {
-      "id": "gram_001",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ness",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "happiness",
-        "darkness",
-        "kindness"
-      ]
+      "id": "lit_006",
+      "wave": 5,
+      "type": "literary_device",
+      "term": "Alliteration",
+      "definition": "Repetition of the same consonant sound at the start of nearby words",
+      "example": "Peter Piper picked a peck of pickled peppers.",
+      "confusableWith": [
+        "Consonance"
+      ],
+      "nextReviewDate": "2026-04-21"
     },
     {
-      "id": "gram_002",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ity",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "creativity",
-        "ability",
-        "reality"
-      ]
+      "id": "lit_010",
+      "wave": 5,
+      "type": "literary_device",
+      "term": "Idiom",
+      "definition": "A phrase whose meaning is different from the literal words",
+      "example": "It's raining cats and dogs.",
+      "confusableWith": [],
+      "nextReviewDate": "2026-04-21"
     },
     {
-      "id": "gram_003",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ment",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "enjoyment",
-        "movement",
-        "excitement"
-      ]
-    },
-    {
-      "id": "gram_004",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-tion",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "information",
-        "education",
-        "celebration"
-      ]
-    },
-    {
-      "id": "gram_005",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ship",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "friendship",
-        "leadership",
-        "relationship"
-      ]
-    },
-    {
-      "id": "gram_006",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ance/-ence",
-      "partOfSpeech": "Noun",
-      "examples": [
-        "performance",
-        "confidence",
-        "patience"
-      ]
-    },
-    {
-      "id": "gram_007",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ate",
-      "partOfSpeech": "Verb",
-      "examples": [
-        "create",
-        "educate",
-        "celebrate"
-      ]
-    },
-    {
-      "id": "gram_008",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ify",
-      "partOfSpeech": "Verb",
-      "examples": [
-        "clarify",
-        "identify",
-        "simplify"
-      ]
-    },
-    {
-      "id": "gram_009",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ise/-ize",
-      "partOfSpeech": "Verb",
-      "examples": [
-        "organise",
-        "realise",
-        "recognise"
-      ]
-    },
-    {
-      "id": "gram_010",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-en",
-      "partOfSpeech": "Verb",
-      "examples": [
-        "brighten",
-        "tighten",
-        "widen"
-      ]
-    },
-    {
-      "id": "gram_011",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ous",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "joyous",
-        "famous",
-        "dangerous"
-      ]
-    },
-    {
-      "id": "gram_012",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ful",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "helpful",
-        "careful",
-        "powerful"
-      ]
-    },
-    {
-      "id": "gram_013",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-less",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "hopeless",
-        "careless",
-        "useless"
-      ]
-    },
-    {
-      "id": "gram_014",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-able/-ible",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "readable",
-        "comfortable",
-        "possible"
-      ]
-    },
-    {
-      "id": "gram_015",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-al",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "musical",
-        "logical",
-        "natural"
-      ]
-    },
-    {
-      "id": "gram_016",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ive",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "creative",
-        "active",
-        "positive"
-      ]
-    },
-    {
-      "id": "gram_017",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ish",
-      "partOfSpeech": "Adjective",
-      "examples": [
-        "childish",
-        "reddish",
-        "foolish"
-      ]
-    },
-    {
-      "id": "gram_018",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ly",
-      "partOfSpeech": "Adverb",
-      "examples": [
-        "quickly",
-        "carefully",
-        "happily"
-      ]
-    },
-    {
-      "id": "gram_019",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-wise",
-      "partOfSpeech": "Adverb",
-      "examples": [
-        "likewise",
-        "clockwise",
-        "otherwise"
-      ]
-    },
-    {
-      "id": "gram_020",
-      "type": "grammar",
-      "subtype": "suffix",
-      "suffix": "-ward(s)",
-      "partOfSpeech": "Adverb",
-      "examples": [
-        "forwards",
-        "backwards",
-        "upwards"
-      ]
-    },
-    {
-      "id": "gram_021",
-      "type": "grammar",
-      "subtype": "term",
-      "term": "Homophone",
-      "definition": "Words that sound the same but have different spellings and meanings",
-      "examples": [
-        "there/their/they're",
-        "to/too/two"
-      ]
-    },
-    {
-      "id": "gram_022",
-      "type": "grammar",
-      "subtype": "term",
-      "term": "Homonym",
-      "definition": "Words that are spelled and sound the same but have different meanings",
-      "examples": [
-        "bat (animal / cricket bat)",
-        "bank (river bank / money bank)"
-      ]
-    },
-    {
-      "id": "gram_023",
-      "type": "grammar",
-      "subtype": "term",
-      "term": "Homograph",
-      "definition": "Words spelled the same but with different sounds and meanings",
-      "examples": [
-        "lead (the metal) / lead (to guide)",
-        "tear (to cry) / tear (to rip)"
-      ]
+      "id": "lit_014",
+      "wave": 5,
+      "type": "literary_device",
+      "term": "Literary Device Review",
+      "definition": "A technique used by a writer to convey meaning, create effect, or engage the reader",
+      "example": "\"The angry clouds growled overhead.\" — identify the device (Personification)",
+      "confusableWith": [],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "gram_024",
+      "wave": 1,
       "type": "grammar",
       "subtype": "term",
       "term": "Noun",
@@ -1473,10 +1385,12 @@
         "teacher",
         "London",
         "happiness"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "gram_025",
+      "wave": 1,
       "type": "grammar",
       "subtype": "term",
       "term": "Verb",
@@ -1485,10 +1399,12 @@
         "run",
         "think",
         "is"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "gram_026",
+      "wave": 1,
       "type": "grammar",
       "subtype": "term",
       "term": "Adjective",
@@ -1497,10 +1413,12 @@
         "tall",
         "blue",
         "clever"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "gram_027",
+      "wave": 1,
       "type": "grammar",
       "subtype": "term",
       "term": "Adverb",
@@ -1509,10 +1427,233 @@
         "quickly",
         "very",
         "often"
-      ]
+      ],
+      "nextReviewDate": null
+    },
+    {
+      "id": "gram_001",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ness",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "happiness",
+        "darkness",
+        "kindness"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_003",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ment",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "enjoyment",
+        "movement",
+        "excitement"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_008",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ify",
+      "partOfSpeech": "Verb",
+      "examples": [
+        "clarify",
+        "identify",
+        "simplify"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_009",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ise/-ize",
+      "partOfSpeech": "Verb",
+      "examples": [
+        "organise",
+        "realise",
+        "recognise"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_012",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ful",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "helpful",
+        "careful",
+        "powerful"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_013",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-less",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "hopeless",
+        "careless",
+        "useless"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_018",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ly",
+      "partOfSpeech": "Adverb",
+      "examples": [
+        "quickly",
+        "carefully",
+        "happily"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_007",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ate",
+      "partOfSpeech": "Verb",
+      "examples": [
+        "create",
+        "educate",
+        "celebrate"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_010",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-en",
+      "partOfSpeech": "Verb",
+      "examples": [
+        "brighten",
+        "tighten",
+        "widen"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_014",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-able/-ible",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "readable",
+        "comfortable",
+        "possible"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_015",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-al",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "musical",
+        "logical",
+        "natural"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_016",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ive",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "creative",
+        "active",
+        "positive"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_017",
+      "wave": 3,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ish",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "childish",
+        "reddish",
+        "foolish"
+      ],
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "gram_021",
+      "wave": 4,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Homophone",
+      "definition": "Words that sound the same but have different spellings and meanings",
+      "examples": [
+        "there/their/they're",
+        "to/too/two"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_022",
+      "wave": 4,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Homonym",
+      "definition": "Words that are spelled and sound the same but have different meanings",
+      "examples": [
+        "bat (animal / cricket bat)",
+        "bank (river bank / money bank)"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_023",
+      "wave": 4,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Homograph",
+      "definition": "Words spelled the same but with different sounds and meanings",
+      "examples": [
+        "lead (the metal) / lead (to guide)",
+        "tear (to cry) / tear (to rip)"
+      ],
+      "nextReviewDate": "2026-04-14"
     },
     {
       "id": "gram_028",
+      "wave": 4,
       "type": "grammar",
       "subtype": "term",
       "term": "Pronoun",
@@ -1522,10 +1663,126 @@
         "she",
         "they",
         "it"
-      ]
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_029",
+      "wave": 4,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Preposition",
+      "definition": "A word that shows the position or relationship between things",
+      "examples": [
+        "in",
+        "on",
+        "under",
+        "between",
+        "through"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_005",
+      "wave": 4,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ship",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "friendship",
+        "leadership",
+        "relationship"
+      ],
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_002",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ity",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "creativity",
+        "ability",
+        "reality"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "gram_004",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-tion",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "information",
+        "education",
+        "celebration"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "gram_006",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ance/-ence",
+      "partOfSpeech": "Noun",
+      "examples": [
+        "performance",
+        "confidence",
+        "patience"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "gram_011",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ous",
+      "partOfSpeech": "Adjective",
+      "examples": [
+        "joyous",
+        "famous",
+        "dangerous"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "gram_019",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-wise",
+      "partOfSpeech": "Adverb",
+      "examples": [
+        "likewise",
+        "clockwise",
+        "otherwise"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "gram_020",
+      "wave": 5,
+      "type": "grammar",
+      "subtype": "suffix",
+      "suffix": "-ward(s)",
+      "partOfSpeech": "Adverb",
+      "examples": [
+        "forwards",
+        "backwards",
+        "upwards"
+      ],
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "math_001",
+      "wave": 1,
       "type": "maths_technique",
       "question": "How do you find a percentage of a number?",
       "method": "Find 10% (÷10), find 1% (÷100), then build the percentage you need from those parts",
@@ -1534,10 +1791,27 @@
         "Find 1% by dividing by 100",
         "Combine to get the percentage you need"
       ],
-      "example": "35% of 200: 10%=20, so 30%=60; 5%=10; 35%=70"
+      "example": "35% of 200: 10%=20, so 30%=60; 5%=10; 35%=70",
+      "nextReviewDate": null
+    },
+    {
+      "id": "math_008",
+      "wave": 1,
+      "type": "maths_technique",
+      "question": "What is the sum and difference method?",
+      "method": "Add the two equations to find 2A, then divide by 2 to find A; subtract equations to find 2B, then divide by 2 to find B",
+      "steps": [
+        "Add both equations: (A+B)+(A-B)=2A",
+        "Divide by 2 to find A",
+        "Subtract equations: (A+B)-(A-B)=2B",
+        "Divide by 2 to find B"
+      ],
+      "example": "A+B=12, A-B=4. Adding: 2A=16, A=8. Subtracting: 2B=8, B=4.",
+      "nextReviewDate": null
     },
     {
       "id": "math_002",
+      "wave": 2,
       "type": "maths_technique",
       "question": "How do you check a division answer?",
       "method": "Multiply your answer by the divisor — the result should equal the original number (plus the remainder if there is one)",
@@ -1546,46 +1820,12 @@
         "Add remainder if there is one",
         "Check it equals the original number"
       ],
-      "example": "23 ÷ 4 = 5 r 3. Check: 5×4=20, 20+3=23 ✓"
-    },
-    {
-      "id": "math_003",
-      "type": "maths_technique",
-      "question": "How do you write a remainder as a fraction?",
-      "method": "Put the remainder over the divisor",
-      "steps": [
-        "Find the remainder",
-        "Write remainder ÷ divisor as a fraction",
-        "Simplify if possible"
-      ],
-      "example": "23 ÷ 4 = 5 remainder 3 → 5 and 3/4"
-    },
-    {
-      "id": "math_004",
-      "type": "maths_technique",
-      "question": "How do you find the area of a rectangle?",
-      "method": "Multiply length × width",
-      "steps": [
-        "Identify the length",
-        "Identify the width",
-        "Multiply them together"
-      ],
-      "example": "Rectangle 8cm × 5cm: area = 40cm²"
-    },
-    {
-      "id": "math_005",
-      "type": "maths_technique",
-      "question": "How do you work with ratios?",
-      "method": "Find the value of one part by dividing the total by the number of parts, then multiply for each share",
-      "steps": [
-        "Add up all the parts of the ratio",
-        "Divide the total by this number to find one part",
-        "Multiply one part by each ratio number"
-      ],
-      "example": "Ratio 3:2, total=25. One part=25÷5=5. Shares: 3×5=15 and 2×5=10"
+      "example": "23 ÷ 4 = 5 r 3. Check: 5×4=20, 20+3=23 ✓",
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "math_006",
+      "wave": 2,
       "type": "maths_technique",
       "question": "How do you compare decimals using place value?",
       "method": "Line up the decimal points, compare digit by digit from left to right",
@@ -1594,10 +1834,41 @@
         "Compare the digits in each column from left to right",
         "The first column where they differ determines which is larger"
       ],
-      "example": "0.75 vs 0.8: tenths column — 7 vs 8 — so 0.8 is larger"
+      "example": "0.75 vs 0.8: tenths column — 7 vs 8 — so 0.8 is larger",
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "math_009",
+      "wave": 2,
+      "type": "maths_technique",
+      "question": "How do you find a point on a number line?",
+      "method": "Count the intervals, find the difference between endpoints, divide to get the step value, then count from the start",
+      "steps": [
+        "Count the total number of intervals between endpoints",
+        "Find the difference between start and end values",
+        "Divide the difference by number of intervals to get step size",
+        "Count intervals from the start to your point and multiply by step size"
+      ],
+      "example": "Number line from 0 to 50 with 5 intervals: each step = 10. Point at 3rd mark = 30.",
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "math_003",
+      "wave": 3,
+      "type": "maths_technique",
+      "question": "How do you write a remainder as a fraction?",
+      "method": "Put the remainder over the divisor",
+      "steps": [
+        "Find the remainder",
+        "Write remainder ÷ divisor as a fraction",
+        "Simplify if possible"
+      ],
+      "example": "23 ÷ 4 = 5 remainder 3 → 5 and 3/4",
+      "nextReviewDate": "2026-04-07"
     },
     {
       "id": "math_007",
+      "wave": 3,
       "type": "maths_technique",
       "question": "How do you do long division?",
       "method": "Divide, Multiply, Subtract, Bring down — repeat",
@@ -1607,10 +1878,40 @@
         "Subtract: find the remainder",
         "Bring down: bring the next digit down and repeat"
       ],
-      "example": "156 ÷ 4: 4 into 15 = 3 r3, bring down 6 → 36 ÷ 4 = 9. Answer: 39"
+      "example": "156 ÷ 4: 4 into 15 = 3 r3, bring down 6 → 36 ÷ 4 = 9. Answer: 39",
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "math_004",
+      "wave": 4,
+      "type": "maths_technique",
+      "question": "How do you find the area of a rectangle?",
+      "method": "Multiply length × width",
+      "steps": [
+        "Identify the length",
+        "Identify the width",
+        "Multiply them together"
+      ],
+      "example": "Rectangle 8cm × 5cm: area = 40cm²",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "math_005",
+      "wave": 5,
+      "type": "maths_technique",
+      "question": "How do you work with ratios?",
+      "method": "Find the value of one part by dividing the total by the number of parts, then multiply for each share",
+      "steps": [
+        "Add up all the parts of the ratio",
+        "Divide the total by this number to find one part",
+        "Multiply one part by each ratio number"
+      ],
+      "example": "Ratio 3:2, total=25. One part=25÷5=5. Shares: 3×5=15 and 2×5=10",
+      "nextReviewDate": "2026-04-21"
     },
     {
       "id": "strat_001",
+      "wave": 1,
       "type": "strategy",
       "question": "What is the Process of Elimination technique?",
       "answer": "Read all options, cross out the ones that are clearly wrong, then choose from what remains",
@@ -1619,10 +1920,12 @@
         "Pick the longest answer",
         "Choose the first one that seems right",
         "Skip and come back later"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "strat_002",
+      "wave": 1,
       "type": "strategy",
       "question": "What should you do BEFORE answering comprehension questions?",
       "answer": "Read the entire passage first, then read the questions",
@@ -1631,10 +1934,12 @@
         "Read the passage and questions at the same time",
         "Answer what you can remember without re-reading",
         "Read the entire passage first, then read the questions"
-      ]
+      ],
+      "nextReviewDate": null
     },
     {
       "id": "strat_003",
+      "wave": 2,
       "type": "strategy",
       "question": "How do you find evidence to support a comprehension answer?",
       "answer": "Go back to the passage and underline or note the exact words that support your answer",
@@ -1644,10 +1949,12 @@
         "Make an inference without checking",
         "Use your general knowledge",
         "Go back to the passage and underline or note the exact words that support your answer"
-      ]
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "strat_004",
+      "wave": 3,
       "type": "strategy",
       "question": "What should you do before selecting a final answer?",
       "answer": "Re-read the question carefully to make sure you are answering exactly what was asked",
@@ -1656,10 +1963,12 @@
         "Pick the answer you chose first",
         "Choose the most interesting option",
         "Look for the longest answer"
-      ]
+      ],
+      "nextReviewDate": "2026-04-07"
     },
     {
       "id": "strat_005",
+      "wave": 3,
       "type": "strategy",
       "question": "How should you use spare time at the end of an exam?",
       "answer": "Return to the 3 questions you felt least confident about and check your answers",
@@ -1668,567 +1977,686 @@
         "Read the passage again from the start",
         "Change all your answers",
         "Skip straight to the end"
-      ]
+      ],
+      "nextReviewDate": "2026-04-07"
     },
     {
-      "id": "arith_frac_0_a",
-      "type": "arithmetic",
-      "question": "1/2 as a decimal = ?",
-      "answer": 0.5,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_0_b",
+      "id": "arith_f01",
+      "wave": 1,
       "type": "arithmetic",
       "question": "1/2 as a percentage = ?",
       "answer": 50,
-      "inputType": "number"
+      "explanation": "1/2 = 0.5 = 50%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_1_a",
-      "type": "arithmetic",
-      "question": "1/4 as a decimal = ?",
-      "answer": 0.25,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_1_b",
+      "id": "arith_f02",
+      "wave": 1,
       "type": "arithmetic",
       "question": "1/4 as a percentage = ?",
       "answer": 25,
-      "inputType": "number"
+      "explanation": "1/4 = 0.25 = 25%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_2_a",
-      "type": "arithmetic",
-      "question": "3/4 as a decimal = ?",
-      "answer": 0.75,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_2_b",
+      "id": "arith_f03",
+      "wave": 1,
       "type": "arithmetic",
       "question": "3/4 as a percentage = ?",
       "answer": 75,
-      "inputType": "number"
+      "explanation": "3/4 = 0.75 = 75%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_3_a",
-      "type": "arithmetic",
-      "question": "1/5 as a decimal = ?",
-      "answer": 0.2,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_3_b",
+      "id": "arith_f04",
+      "wave": 1,
       "type": "arithmetic",
       "question": "1/5 as a percentage = ?",
       "answer": 20,
-      "inputType": "number"
+      "explanation": "1/5 = 0.2 = 20%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_4_a",
-      "type": "arithmetic",
-      "question": "2/5 as a decimal = ?",
-      "answer": 0.4,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_4_b",
-      "type": "arithmetic",
-      "question": "2/5 as a percentage = ?",
-      "answer": 40,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_5_a",
-      "type": "arithmetic",
-      "question": "3/5 as a decimal = ?",
-      "answer": 0.6,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_5_b",
-      "type": "arithmetic",
-      "question": "3/5 as a percentage = ?",
-      "answer": 60,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_6_a",
-      "type": "arithmetic",
-      "question": "4/5 as a decimal = ?",
-      "answer": 0.8,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_6_b",
-      "type": "arithmetic",
-      "question": "4/5 as a percentage = ?",
-      "answer": 80,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_7_a",
-      "type": "arithmetic",
-      "question": "1/8 as a decimal = ?",
-      "answer": 0.125,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_7_b",
-      "type": "arithmetic",
-      "question": "1/8 as a percentage = ?",
-      "answer": 12.5,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_8_a",
-      "type": "arithmetic",
-      "question": "3/8 as a decimal = ?",
-      "answer": 0.375,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_8_b",
-      "type": "arithmetic",
-      "question": "3/8 as a percentage = ?",
-      "answer": 37.5,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_9_a",
-      "type": "arithmetic",
-      "question": "5/8 as a decimal = ?",
-      "answer": 0.625,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_9_b",
-      "type": "arithmetic",
-      "question": "5/8 as a percentage = ?",
-      "answer": 62.5,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_10_a",
-      "type": "arithmetic",
-      "question": "7/8 as a decimal = ?",
-      "answer": 0.875,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_10_b",
-      "type": "arithmetic",
-      "question": "7/8 as a percentage = ?",
-      "answer": 87.5,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_11_a",
-      "type": "arithmetic",
-      "question": "1/3 as a decimal = ?",
-      "answer": 0.333,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_11_b",
-      "type": "arithmetic",
-      "question": "1/3 as a percentage = ?",
-      "answer": 33.3,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_12_a",
-      "type": "arithmetic",
-      "question": "2/3 as a decimal = ?",
-      "answer": 0.667,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_12_b",
-      "type": "arithmetic",
-      "question": "2/3 as a percentage = ?",
-      "answer": 66.7,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_frac_13_a",
-      "type": "arithmetic",
-      "question": "1/10 as a decimal = ?",
-      "answer": 0.1,
-      "inputType": "decimal"
-    },
-    {
-      "id": "arith_frac_13_b",
+      "id": "arith_f05",
+      "wave": 1,
       "type": "arithmetic",
       "question": "1/10 as a percentage = ?",
       "answer": 10,
-      "inputType": "number"
+      "explanation": "1/10 = 0.1 = 10%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_14_a",
+      "id": "arith_f06",
+      "wave": 1,
       "type": "arithmetic",
-      "question": "1/100 as a decimal = ?",
-      "answer": 0.01,
-      "inputType": "decimal"
+      "question": "2/5 as a percentage = ?",
+      "answer": 40,
+      "explanation": "2/5 = 0.4 = 40%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_frac_14_b",
+      "id": "arith_f07",
+      "wave": 1,
       "type": "arithmetic",
-      "question": "1/100 as a percentage = ?",
-      "answer": 1,
-      "inputType": "number"
+      "question": "3/5 as a percentage = ?",
+      "answer": 60,
+      "explanation": "3/5 = 0.6 = 60%",
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_0_0",
-      "type": "arithmetic",
-      "question": "10% of 40 = ?",
-      "answer": 4,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_1",
-      "type": "arithmetic",
-      "question": "10% of 60 = ?",
-      "answer": 6,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_2",
-      "type": "arithmetic",
-      "question": "10% of 80 = ?",
-      "answer": 8,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_3",
-      "type": "arithmetic",
-      "question": "10% of 120 = ?",
-      "answer": 12,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_4",
+      "id": "arith_p01",
+      "wave": 1,
       "type": "arithmetic",
       "question": "10% of 200 = ?",
       "answer": 20,
-      "inputType": "number"
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_0_5",
-      "type": "arithmetic",
-      "question": "10% of 240 = ?",
-      "answer": 24,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_6",
-      "type": "arithmetic",
-      "question": "10% of 360 = ?",
-      "answer": 36,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_7",
-      "type": "arithmetic",
-      "question": "10% of 400 = ?",
-      "answer": 40,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_8",
-      "type": "arithmetic",
-      "question": "10% of 500 = ?",
-      "answer": 50,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_0_9",
-      "type": "arithmetic",
-      "question": "10% of 800 = ?",
-      "answer": 80,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_0",
-      "type": "arithmetic",
-      "question": "20% of 40 = ?",
-      "answer": 8,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_1",
-      "type": "arithmetic",
-      "question": "20% of 60 = ?",
-      "answer": 12,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_2",
-      "type": "arithmetic",
-      "question": "20% of 80 = ?",
-      "answer": 16,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_3",
-      "type": "arithmetic",
-      "question": "20% of 120 = ?",
-      "answer": 24,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_4",
-      "type": "arithmetic",
-      "question": "20% of 200 = ?",
-      "answer": 40,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_5",
-      "type": "arithmetic",
-      "question": "20% of 240 = ?",
-      "answer": 48,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_6",
-      "type": "arithmetic",
-      "question": "20% of 360 = ?",
-      "answer": 72,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_7",
-      "type": "arithmetic",
-      "question": "20% of 400 = ?",
-      "answer": 80,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_8",
-      "type": "arithmetic",
-      "question": "20% of 500 = ?",
-      "answer": 100,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_1_9",
-      "type": "arithmetic",
-      "question": "20% of 800 = ?",
-      "answer": 160,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_2_0",
-      "type": "arithmetic",
-      "question": "25% of 40 = ?",
-      "answer": 10,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_2_1",
-      "type": "arithmetic",
-      "question": "25% of 60 = ?",
-      "answer": 15,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_2_2",
+      "id": "arith_p02",
+      "wave": 1,
       "type": "arithmetic",
       "question": "25% of 80 = ?",
       "answer": 20,
-      "inputType": "number"
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_2_3",
+      "id": "arith_p03",
+      "wave": 1,
+      "type": "arithmetic",
+      "question": "50% of 90 = ?",
+      "answer": 45,
+      "nextReviewDate": null
+    },
+    {
+      "id": "arith_p04",
+      "wave": 1,
+      "type": "arithmetic",
+      "question": "15% of 200 = ?",
+      "answer": 30,
+      "nextReviewDate": null
+    },
+    {
+      "id": "arith_p05",
+      "wave": 1,
+      "type": "arithmetic",
+      "question": "10% of 350 = ?",
+      "answer": 35,
+      "nextReviewDate": null
+    },
+    {
+      "id": "arith_p06",
+      "wave": 1,
       "type": "arithmetic",
       "question": "25% of 120 = ?",
       "answer": 30,
-      "inputType": "number"
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_2_4",
+      "id": "arith_p07",
+      "wave": 1,
       "type": "arithmetic",
-      "question": "25% of 200 = ?",
-      "answer": 50,
-      "inputType": "number"
+      "question": "50% of 66 = ?",
+      "answer": 33,
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_2_5",
+      "id": "arith_p08",
+      "wave": 1,
       "type": "arithmetic",
-      "question": "25% of 240 = ?",
-      "answer": 60,
-      "inputType": "number"
+      "question": "10% of 45 = ?",
+      "answer": 4.5,
+      "nextReviewDate": null
     },
     {
-      "id": "arith_pct_2_6",
+      "id": "arith_f08",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "25% of 360 = ?",
-      "answer": 90,
-      "inputType": "number"
+      "question": "1/8 as a percentage = ?",
+      "answer": 12.5,
+      "explanation": "1/8 = 0.125 = 12.5%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_2_7",
+      "id": "arith_f09",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "25% of 400 = ?",
-      "answer": 100,
-      "inputType": "number"
+      "question": "3/8 as a percentage = ?",
+      "answer": 37.5,
+      "explanation": "3/8 = 0.375 = 37.5%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_2_8",
+      "id": "arith_f10",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "25% of 500 = ?",
-      "answer": 125,
-      "inputType": "number"
+      "question": "5/8 as a percentage = ?",
+      "answer": 62.5,
+      "explanation": "5/8 = 0.625 = 62.5%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_2_9",
+      "id": "arith_f11",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "25% of 800 = ?",
-      "answer": 200,
-      "inputType": "number"
+      "question": "7/8 as a percentage = ?",
+      "answer": 87.5,
+      "explanation": "7/8 = 0.875 = 87.5%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_3_0",
+      "id": "arith_f12",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "50% of 40 = ?",
-      "answer": 20,
-      "inputType": "number"
+      "question": "1/3 as a percentage (to 1dp) = ?",
+      "answer": 33.3,
+      "explanation": "1/3 = 0.333... ≈ 33.3%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_3_1",
+      "id": "arith_f13",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "50% of 60 = ?",
-      "answer": 30,
-      "inputType": "number"
+      "question": "2/3 as a percentage (to 1dp) = ?",
+      "answer": 66.7,
+      "explanation": "2/3 = 0.667... ≈ 66.7%",
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_3_2",
+      "id": "arith_p09",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "50% of 80 = ?",
-      "answer": 40,
-      "inputType": "number"
+      "question": "5% of 240 = ?",
+      "answer": 12,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_3_3",
+      "id": "arith_p10",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "50% of 120 = ?",
-      "answer": 60,
-      "inputType": "number"
+      "question": "15% of 60 = ?",
+      "answer": 9,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_3_4",
+      "id": "arith_p11",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "50% of 200 = ?",
-      "answer": 100,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_3_5",
-      "type": "arithmetic",
-      "question": "50% of 240 = ?",
-      "answer": 120,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_3_6",
-      "type": "arithmetic",
-      "question": "50% of 360 = ?",
-      "answer": 180,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_3_7",
-      "type": "arithmetic",
-      "question": "50% of 400 = ?",
-      "answer": 200,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_3_8",
-      "type": "arithmetic",
-      "question": "50% of 500 = ?",
-      "answer": 250,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_3_9",
-      "type": "arithmetic",
-      "question": "50% of 800 = ?",
-      "answer": 400,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_4_0",
-      "type": "arithmetic",
-      "question": "75% of 40 = ?",
-      "answer": 30,
-      "inputType": "number"
-    },
-    {
-      "id": "arith_pct_4_1",
-      "type": "arithmetic",
-      "question": "75% of 60 = ?",
+      "question": "30% of 150 = ?",
       "answer": 45,
-      "inputType": "number"
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_2",
+      "id": "arith_p12",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "75% of 80 = ?",
-      "answer": 60,
-      "inputType": "number"
+      "question": "35% of 200 = ?",
+      "answer": 70,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_3",
+      "id": "arith_p13",
+      "wave": 2,
       "type": "arithmetic",
       "question": "75% of 120 = ?",
       "answer": 90,
-      "inputType": "number"
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_4",
+      "id": "arith_p14",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "75% of 200 = ?",
-      "answer": 150,
-      "inputType": "number"
+      "question": "20% of 85 = ?",
+      "answer": 17,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_5",
+      "id": "arith_p15",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "75% of 240 = ?",
-      "answer": 180,
-      "inputType": "number"
+      "question": "5% of 180 = ?",
+      "answer": 9,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_6",
+      "id": "arith_p16",
+      "wave": 2,
       "type": "arithmetic",
-      "question": "75% of 360 = ?",
-      "answer": 270,
-      "inputType": "number"
+      "question": "15% of 340 = ?",
+      "answer": 51,
+      "nextReviewDate": "2026-03-31"
     },
     {
-      "id": "arith_pct_4_7",
+      "id": "arith_f14",
+      "wave": 3,
       "type": "arithmetic",
-      "question": "75% of 400 = ?",
-      "answer": 300,
-      "inputType": "number"
+      "question": "1/6 as a percentage (to 1dp) = ?",
+      "answer": 16.7,
+      "explanation": "1/6 = 0.1666... ≈ 16.7%",
+      "nextReviewDate": "2026-04-07"
     },
     {
-      "id": "arith_pct_4_8",
+      "id": "arith_f15",
+      "wave": 3,
       "type": "arithmetic",
-      "question": "75% of 500 = ?",
-      "answer": 375,
-      "inputType": "number"
+      "question": "5/6 as a percentage (to 1dp) = ?",
+      "answer": 83.3,
+      "explanation": "5/6 = 0.8333... ≈ 83.3%",
+      "nextReviewDate": "2026-04-07"
     },
     {
-      "id": "arith_pct_4_9",
+      "id": "arith_f16",
+      "wave": 3,
       "type": "arithmetic",
-      "question": "75% of 800 = ?",
-      "answer": 600,
-      "inputType": "number"
+      "question": "3/10 as a percentage = ?",
+      "answer": 30,
+      "explanation": "3/10 = 0.3 = 30%",
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_f17",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "7/10 as a percentage = ?",
+      "answer": 70,
+      "explanation": "7/10 = 0.7 = 70%",
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_f18",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "9/10 as a percentage = ?",
+      "answer": 90,
+      "explanation": "9/10 = 0.9 = 90%",
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p17",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "40% of 90 = ?",
+      "answer": 36,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p18",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "12% of 300 = ?",
+      "answer": 36,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p19",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "60% of 35 = ?",
+      "answer": 21,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p20",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "45% of 200 = ?",
+      "answer": 90,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p21",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "85% of 40 = ?",
+      "answer": 34,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p22",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "20% of 55 = ?",
+      "answer": 11,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p23",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "35% of 80 = ?",
+      "answer": 28,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_p24",
+      "wave": 3,
+      "type": "arithmetic",
+      "question": "15% of 120 = ?",
+      "answer": 18,
+      "nextReviewDate": "2026-04-07"
+    },
+    {
+      "id": "arith_f19",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "1/20 as a percentage = ?",
+      "answer": 5,
+      "explanation": "1/20 = 0.05 = 5%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f20",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "3/20 as a percentage = ?",
+      "answer": 15,
+      "explanation": "3/20 = 0.15 = 15%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f21",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "7/20 as a percentage = ?",
+      "answer": 35,
+      "explanation": "7/20 = 0.35 = 35%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f22",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "9/20 as a percentage = ?",
+      "answer": 45,
+      "explanation": "9/20 = 0.45 = 45%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f23",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "11/20 as a percentage = ?",
+      "answer": 55,
+      "explanation": "11/20 = 0.55 = 55%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f24",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "13/20 as a percentage = ?",
+      "answer": 65,
+      "explanation": "13/20 = 0.65 = 65%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f25",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "17/20 as a percentage = ?",
+      "answer": 85,
+      "explanation": "17/20 = 0.85 = 85%",
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p25",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "17.5% of 200 = ?",
+      "answer": 35,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p26",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "22% of 50 = ?",
+      "answer": 11,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p27",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "65% of 40 = ?",
+      "answer": 26,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p28",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "90% of 70 = ?",
+      "answer": 63,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p29",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "55% of 200 = ?",
+      "answer": 110,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p30",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "8% of 150 = ?",
+      "answer": 12,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p31",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "2% of 350 = ?",
+      "answer": 7,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p32",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "33% of 300 = ?",
+      "answer": 99,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p33",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "11% of 200 = ?",
+      "answer": 22,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_p34",
+      "wave": 4,
+      "type": "arithmetic",
+      "question": "45% of 80 = ?",
+      "answer": 36,
+      "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "arith_f26",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "2/8 as a percentage = ?",
+      "answer": 25,
+      "explanation": "2/8 = 1/4 = 25%",
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_f27",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "4/8 as a percentage = ?",
+      "answer": 50,
+      "explanation": "4/8 = 1/2 = 50%",
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_f28",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "6/8 as a percentage = ?",
+      "answer": 75,
+      "explanation": "6/8 = 3/4 = 75%",
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_f29",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "2/6 as a percentage (to 1dp) = ?",
+      "answer": 33.3,
+      "explanation": "2/6 = 1/3 ≈ 33.3%",
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_f30",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "4/6 as a percentage (to 1dp) = ?",
+      "answer": 66.7,
+      "explanation": "4/6 = 2/3 ≈ 66.7%",
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p35",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "7.5% of 200 = ?",
+      "answer": 15,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p36",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "12.5% of 80 = ?",
+      "answer": 10,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p37",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "37.5% of 40 = ?",
+      "answer": 15,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p38",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "62.5% of 80 = ?",
+      "answer": 50,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p39",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "87.5% of 40 = ?",
+      "answer": 35,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p40",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "95% of 200 = ?",
+      "answer": 190,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p41",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "3% of 500 = ?",
+      "answer": 15,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p42",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "18% of 50 = ?",
+      "answer": 9,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p43",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "72% of 50 = ?",
+      "answer": 36,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_p44",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "14% of 300 = ?",
+      "answer": 42,
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_r01",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "17 ÷ 5 written as a mixed number = ?",
+      "answer": "3 2/5",
+      "options": [
+        "3 2/5",
+        "2 3/5",
+        "3 3/5",
+        "4 1/5"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_r02",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "23 ÷ 4 written as a mixed number = ?",
+      "answer": "5 3/4",
+      "options": [
+        "5 3/4",
+        "4 3/5",
+        "5 1/4",
+        "6 1/4"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_r03",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "29 ÷ 6 written as a mixed number = ?",
+      "answer": "4 5/6",
+      "options": [
+        "4 5/6",
+        "5 1/6",
+        "4 1/6",
+        "3 5/6"
+      ],
+      "nextReviewDate": "2026-04-21"
+    },
+    {
+      "id": "arith_r04",
+      "wave": 5,
+      "type": "arithmetic",
+      "question": "31 ÷ 8 written as a mixed number = ?",
+      "answer": "3 7/8",
+      "options": [
+        "3 7/8",
+        "4 1/8",
+        "2 7/8",
+        "3 5/8"
+      ],
+      "nextReviewDate": "2026-04-21"
     }
   ]
 }
