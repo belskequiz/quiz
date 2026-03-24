@@ -78,7 +78,7 @@ export default function Admin({ data, progress, updateData, updateProgress, setS
       <div className="flex-1 overflow-y-auto">
         {tab === 'cards' && <CardListTab data={data} updateData={updateData} />}
         {tab === 'stats' && <StatsTab data={data} progress={progress} />}
-        {tab === 'settings' && <SettingsTab data={data} progress={progress} updateData={updateData} updateProgress={updateProgress} progress={progress} />}
+        {tab === 'settings' && <SettingsTab data={data} progress={progress} updateData={updateData} updateProgress={updateProgress} />}
       </div>
     </div>
   )
@@ -299,10 +299,11 @@ function Stat({ label, value }) {
 }
 
 // --- Settings Tab ---
-function SettingsTab({ data, updateData, progress }) {
+function SettingsTab({ data, updateData, progress, updateProgress }) {
   const [newPin, setNewPin] = useState('')
   const [pinSaved, setPinSaved] = useState(false)
   const [resetConfirm, setResetConfirm] = useState(false)
+  const [clearProgressConfirm, setClearProgressConfirm] = useState(false)
   const [restoreError, setRestoreError] = useState('')
 
   function exportBackup() {
@@ -353,6 +354,13 @@ function SettingsTab({ data, updateData, progress }) {
       starThreshold: n,
       thresholdChangeDate: new Date().toISOString().slice(0, 10),
     }})
+  }
+
+  function clearProgress() {
+    const settings = data.settings
+    localStorage.clear()
+    localStorage.setItem('quiz-settings-preserved', JSON.stringify(settings))
+    window.location.reload()
   }
 
   function resetAll() {
@@ -432,6 +440,23 @@ function SettingsTab({ data, updateData, progress }) {
       </div>
 
       <div className="flex flex-col gap-2 pt-4 border-t border-gray-800">
+        {!clearProgressConfirm ? (
+          <button onClick={() => setClearProgressConfirm(true)} className="text-red-700 text-sm py-3">
+            Clear progress…
+          </button>
+        ) : (
+          <div className="flex flex-col gap-2">
+            <p className="text-red-400 text-sm">This will erase all progress and reload cards fresh from the website. Settings (PIN, thresholds) are kept. Are you sure?</p>
+            <div className="flex gap-3">
+              <button onClick={clearProgress} className="flex-1 bg-red-700 text-white font-bold py-3 rounded-xl">
+                Yes, clear
+              </button>
+              <button onClick={() => setClearProgressConfirm(false)} className="flex-1 bg-gray-800 text-white py-3 rounded-xl">
+                Cancel
+              </button>
+            </div>
+          </div>
+        )}
         {!resetConfirm ? (
           <button onClick={() => setResetConfirm(true)} className="text-red-700 text-sm py-3">
             Reset all data…

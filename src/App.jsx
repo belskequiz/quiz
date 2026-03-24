@@ -32,12 +32,19 @@ export default function App() {
   async function initialise() {
     let appData = await loadData()
     if (!appData) {
+      const preservedSettings = (() => {
+        try {
+          const s = localStorage.getItem('quiz-settings-preserved')
+          localStorage.removeItem('quiz-settings-preserved')
+          return s ? JSON.parse(s) : null
+        } catch { return null }
+      })()
       try {
         const res = await fetch(import.meta.env.BASE_URL + 'cards.json')
         const { cards: seedCards } = await res.json()
         appData = {
           cards: seedCards.map(c => ({ ...c, ...initialCardState() })),
-          settings: DEFAULT_SETTINGS,
+          settings: preservedSettings ?? DEFAULT_SETTINGS,
         }
         await saveData(appData)
       } catch (e) {
