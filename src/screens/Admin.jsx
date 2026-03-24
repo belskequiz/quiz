@@ -83,7 +83,7 @@ export default function Admin({ data, progress, updateData, updateProgress, setS
         {tab === 'add' && <AddCardTab data={data} updateData={updateData} />}
         {tab === 'import' && <ImportTab data={data} updateData={updateData} />}
         {tab === 'stats' && <StatsTab data={data} progress={progress} />}
-        {tab === 'settings' && <SettingsTab data={data} progress={progress} updateData={updateData} updateProgress={updateProgress} />}
+        {tab === 'settings' && <SettingsTab data={data} progress={progress} updateData={updateData} updateProgress={updateProgress} progress={progress} />}
       </div>
     </div>
   )
@@ -490,10 +490,41 @@ function Stat({ label, value }) {
 }
 
 // --- Settings Tab ---
-function SettingsTab({ data, updateData }) {
+function SettingsTab({ data, updateData, progress }) {
   const [newPin, setNewPin] = useState('')
   const [pinSaved, setPinSaved] = useState(false)
   const [resetConfirm, setResetConfirm] = useState(false)
+  const [restoreError, setRestoreError] = useState('')
+
+  function exportBackup() {
+    const backup = { data, progress, exportedAt: new Date().toISOString() }
+    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `quiz-backup-${new Date().toISOString().slice(0, 10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  function importBackup(e) {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = (evt) => {
+      try {
+        const backup = JSON.parse(evt.target.result)
+        if (!backup.data || !backup.progress) throw new Error('Invalid backup file')
+        localStorage.setItem('quiz-data', JSON.stringify(backup.data))
+        localStorage.setItem('quiz-progress', JSON.stringify(backup.progress))
+        window.location.reload()
+      } catch {
+        setRestoreError('Invalid backup file')
+        setTimeout(() => setRestoreError(''), 3000)
+      }
+    }
+    reader.readAsText(file)
+  }
 
   function savePin() {
     if (newPin.length !== 4) return
@@ -573,6 +604,22 @@ function SettingsTab({ data, updateData }) {
             </button>
           ))}
         </div>
+      </div>
+
+      {/* Backup / Restore */}
+      <div className="flex flex-col gap-3 pt-4 border-t border-gray-800">
+        <label className="text-gray-400 text-sm font-medium">Backup & Restore</label>
+        <button
+          onClick={exportBackup}
+          className="bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-xl text-sm font-medium transition-colors"
+        >
+          Save backup to file
+        </button>
+        <label className="bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-xl text-sm font-medium text-center cursor-pointer transition-colors">
+          Restore from backup file
+          <input type="file" accept=".json" onChange={importBackup} className="hidden" />
+        </label>
+        {restoreError && <p className="text-red-400 text-xs">{restoreError}</p>}
       </div>
 
       <div className="flex flex-col gap-2 pt-4 border-t border-gray-800">
