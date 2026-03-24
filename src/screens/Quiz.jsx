@@ -188,6 +188,7 @@ export default function Quiz({ data, progress, updateData, onComplete, bonusConf
         {answered && (
           <button
             onClick={advance}
+            autoFocus
             className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-4 rounded-2xl transition-colors mb-6"
           >
             {index + 1 >= session.length ? 'See Results' : 'Next'}
