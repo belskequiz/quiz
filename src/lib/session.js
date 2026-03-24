@@ -1,5 +1,14 @@
 import { isDue } from './sm2'
 
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
 export function buildSession(cards, recentErrorIds, todayISO, settings, excludeIds = new Set()) {
   const { cardsPerSession = 15 } = settings
 
@@ -13,9 +22,9 @@ export function buildSession(cards, recentErrorIds, todayISO, settings, excludeI
 
   const errorIdSet = new Set(errorCards.map(c => c.id))
 
-  // Priority 2: new cards (never reviewed) — show before due so fresh additions appear promptly
-  const newCards = available
-    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO))
+  // Priority 2: new cards (never reviewed) — shuffled so freshly added cards aren't always buried
+  const newCards = shuffle(available
+    .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO)))
 
   const newIdSet = new Set(newCards.map(c => c.id))
 
