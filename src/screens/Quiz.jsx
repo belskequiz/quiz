@@ -70,21 +70,20 @@ export default function Quiz({ data, progress, updateData, onComplete }) {
     setLatestCards(updatedCards)
     updateData({ ...data, cards: updatedCards })
 
-    const newResults = [...results, { cardId: card.id, correct, card }]
+    setResults(prev => [...prev, { cardId: card.id, correct, card }])
+  }
 
-    setTimeout(() => {
-      if (index + 1 >= session.length) {
-        onComplete({
-          total: session.length,
-          correct: newResults.filter(r => r.correct).length,
-          results: newResults,
-          cards: updatedCards,
-        })
-      } else {
-        setResults(newResults)
-        setIndex(i => i + 1)
-      }
-    }, 1800)
+  function advance() {
+    if (index + 1 >= session.length) {
+      onComplete({
+        total: session.length,
+        correct: results.filter(r => r.correct).length,
+        results,
+        cards: latestCards,
+      })
+    } else {
+      setIndex(i => i + 1)
+    }
   }
 
   function handleInputSubmit(e) {
@@ -181,6 +180,16 @@ export default function Quiz({ data, progress, updateData, onComplete }) {
           <div className="bg-gray-900 rounded-xl p-4 text-gray-400 text-sm">
             {question.explanation}
           </div>
+        )}
+
+        {/* Next button */}
+        {answered && (
+          <button
+            onClick={advance}
+            className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-4 rounded-2xl transition-colors mb-6"
+          >
+            {index + 1 >= session.length ? 'See Results' : 'Next'}
+          </button>
         )}
       </div>
     </div>
