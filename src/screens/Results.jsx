@@ -3,7 +3,7 @@ import { Star, Flame, ChevronDown, ChevronUp, Trophy } from 'lucide-react'
 import { updateStreak } from '../lib/streak'
 import { isMastered } from '../lib/sm2'
 
-export default function Results({ data, progress, updateProgress, setScreen, results }) {
+export default function Results({ data, progress, updateProgress, setScreen, results, onContinue }) {
   const [errorsOpen, setErrorsOpen] = useState(false)
   const today = new Date().toISOString().slice(0, 10)
 
@@ -112,6 +112,14 @@ export default function Results({ data, progress, updateProgress, setScreen, res
 
       <div className="flex-1" />
 
+      {onContinue && (
+        <button
+          onClick={onContinue}
+          className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-4 rounded-2xl transition-colors"
+        >
+          5 more cards
+        </button>
+      )}
       <button
         onClick={() => setScreen('dashboard')}
         className="w-full bg-gray-800 hover:bg-gray-700 text-white font-bold text-lg py-4 rounded-2xl transition-colors"

@@ -143,23 +143,6 @@ export const strategyCards = [
   { id:'strat_005', type:'strategy', question:'How should you use spare time at the end of an exam?', answer:'Return to the 3 questions you felt least confident about and check your answers', options:['Return to the 3 questions you felt least confident about and check your answers','Read the passage again from the start','Change all your answers','Skip straight to the end'] },
 ]
 
-// Generate multiplication table drills
-function generateMultiplicationDrills() {
-  const drills = []
-  for (let a = 2; a <= 12; a++) {
-    for (let b = 2; b <= 12; b++) {
-      drills.push({
-        id: `arith_mult_${a}_${b}`,
-        type: 'arithmetic',
-        question: `${a} × ${b} = ?`,
-        answer: a * b,
-        inputType: 'number',
-      })
-    }
-  }
-  return drills
-}
-
 // Fraction/Decimal/Percent conversions
 const fractionConversions = [
   { frac:'1/2', decimal:0.5, percent:50 },
@@ -223,7 +206,6 @@ export function generateAllCards() {
     ...grammarCards,
     ...mathsTechniqueCards,
     ...strategyCards,
-    ...generateMultiplicationDrills(),
     ...generateFractionDrills(),
     ...generatePercentageDrills(),
   ]

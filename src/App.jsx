@@ -25,6 +25,7 @@ export default function App() {
   const [data, setData] = useState(null)
   const [progress, setProgress] = useState(null)
   const [sessionResults, setSessionResults] = useState(null)
+  const [bonusConfig, setBonusConfig] = useState(null)
 
   useEffect(() => { initialise() }, [])
 
@@ -83,8 +84,16 @@ export default function App() {
 
   const handleSessionComplete = useCallback((results) => {
     setSessionResults(results)
+    setBonusConfig(null)
     setScreen('results')
   }, [])
+
+  const handleContinue = useCallback(() => {
+    setBonusConfig({
+      seenIds: new Set(sessionResults.results.map(r => r.cardId)),
+    })
+    setScreen('quiz')
+  }, [sessionResults])
 
   if (screen === 'loading') {
     return (
@@ -99,8 +108,8 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       {screen === 'dashboard' && <Dashboard {...props} />}
-      {screen === 'quiz' && <Quiz {...props} onComplete={handleSessionComplete} />}
-      {screen === 'results' && <Results {...props} results={sessionResults} />}
+      {screen === 'quiz' && <Quiz {...props} onComplete={handleSessionComplete} bonusConfig={bonusConfig} />}
+      {screen === 'results' && <Results {...props} results={sessionResults} onContinue={handleContinue} />}
       {screen === 'admin' && <Admin {...props} />}
     </div>
   )

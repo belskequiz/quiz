@@ -1,23 +1,25 @@
 import { isDue } from './sm2'
 
-export function buildSession(cards, recentErrorIds, todayISO, settings) {
+export function buildSession(cards, recentErrorIds, todayISO, settings, excludeIds = new Set()) {
   const { cardsPerSession = 15 } = settings
+
+  const available = cards.filter(c => !excludeIds.has(c.id))
 
   // Priority 1: recent errors (max 3)
   const errorCards = recentErrorIds
-    .map(id => cards.find(c => c.id === id))
+    .map(id => available.find(c => c.id === id))
     .filter(Boolean)
     .slice(0, 3)
 
   const errorIdSet = new Set(errorCards.map(c => c.id))
 
   // Priority 2: due cards (SM-2 scheduled)
-  const dueCards = cards
+  const dueCards = available
     .filter(c => !errorIdSet.has(c.id) && c.lastReviewDate && isDue(c, todayISO))
 
   // Priority 3: new cards (never reviewed) — fill remaining capacity
   const remainingSlots = cardsPerSession - errorCards.length - dueCards.length
-  const newCards = cards
+  const newCards = available
     .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate)
     .slice(0, Math.max(remainingSlots, 0))
 

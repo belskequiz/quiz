@@ -13,15 +13,17 @@ const TYPE_ICONS = {
   strategy: Lightbulb,
 }
 
-export default function Quiz({ data, progress, updateData, onComplete }) {
+export default function Quiz({ data, progress, updateData, onComplete, bonusConfig }) {
   const today = new Date().toISOString().slice(0, 10)
   const recentErrors = progress.sessions.length > 0
     ? (progress.sessions[progress.sessions.length - 1].errors || [])
     : []
 
-  const [session] = useState(() =>
-    buildSession(data.cards, recentErrors, today, data.settings)
-  )
+  const [session] = useState(() => {
+    const settings = bonusConfig ? { ...data.settings, cardsPerSession: 5 } : data.settings
+    const excludeIds = bonusConfig?.seenIds ?? new Set()
+    return buildSession(data.cards, recentErrors, today, settings, excludeIds)
+  })
   const [index, setIndex] = useState(0)
   const [question, setQuestion] = useState(null)
   const [selected, setSelected] = useState(null)
