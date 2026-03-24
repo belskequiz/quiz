@@ -29,11 +29,12 @@ describe('buildSession', () => {
     expect(sessionIds).toContain('v2')
   })
 
-  it('includes no more than 3 new cards (never reviewed)', () => {
+  it('fills session with new cards when no due/error cards exist', () => {
     const cards = Array.from({ length: 20 }, (_, i) => makeCard(`v${i}`))
     const session = buildSession(cards, [], '2026-03-24', { cardsPerSession: 15 })
+    expect(session.length).toBe(15)
     const newCards = session.filter(c => !c.lastReviewDate)
-    expect(newCards.length).toBeLessThanOrEqual(3)
+    expect(newCards.length).toBe(15)
   })
 
   it('interleaves 4 different types — no type repeats more than twice consecutively', () => {
