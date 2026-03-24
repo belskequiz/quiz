@@ -13,21 +13,20 @@ export function buildSession(cards, recentErrorIds, todayISO, settings, excludeI
 
   const errorIdSet = new Set(errorCards.map(c => c.id))
 
-  // Priority 2: due cards (SM-2 scheduled)
-  const dueCards = available
-    .filter(c => !errorIdSet.has(c.id) && c.lastReviewDate && isDue(c, todayISO))
-
-  // Priority 3: new cards (never reviewed) — fill remaining capacity
-  const remainingSlots = cardsPerSession - errorCards.length - dueCards.length
+  // Priority 2: new cards (never reviewed) — show before due so fresh additions appear promptly
   const newCards = available
     .filter(c => !errorIdSet.has(c.id) && !c.lastReviewDate && isDue(c, todayISO))
-    .slice(0, Math.max(remainingSlots, 0))
 
   const newIdSet = new Set(newCards.map(c => c.id))
-  const filteredDue = dueCards.filter(c => !newIdSet.has(c.id))
+
+  // Priority 3: due cards (SM-2 scheduled)
+  const remainingSlots = cardsPerSession - errorCards.length - newCards.length
+  const dueCards = available
+    .filter(c => !errorIdSet.has(c.id) && !newIdSet.has(c.id) && c.lastReviewDate && isDue(c, todayISO))
+    .slice(0, Math.max(remainingSlots, 0))
 
   // Combine up to limit
-  const pool = [...errorCards, ...filteredDue, ...newCards].slice(0, cardsPerSession)
+  const pool = [...errorCards, ...newCards, ...dueCards].slice(0, cardsPerSession)
 
   // Interleave types
   return interleaveByType(pool)

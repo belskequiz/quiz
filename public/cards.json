@@ -1910,6 +1910,20 @@
       "nextReviewDate": "2026-04-21"
     },
     {
+      "id": "test_001",
+      "wave": 1,
+      "type": "strategy",
+      "question": "What colour is Pikachu?",
+      "answer": "Yellow",
+      "options": [
+        "Yellow",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "nextReviewDate": null
+    },
+    {
       "id": "strat_001",
       "wave": 1,
       "type": "strategy",

@@ -164,6 +164,7 @@ export const mathsTechniqueCards = [
 
 export const strategyCards = [
   // Wave 1
+  { id:'test_001', wave:1, type:'strategy', question:'What colour is Pikachu?', answer:'Yellow', options:['Yellow','Red','Blue','Green'] },
   { id:'strat_001', wave:1, type:'strategy', question:'What is the Process of Elimination technique?', answer:'Read all options, cross out clearly wrong ones, then choose from what remains', options:['Read all options, cross out clearly wrong ones, then choose from what remains','Pick the longest answer','Choose the first one that seems right','Skip and come back later'] },
   { id:'strat_002', wave:1, type:'strategy', question:'What should you do BEFORE answering comprehension questions?', answer:'Read the entire passage first, then read the questions', options:['Read the questions first to know what to look for','Read the passage and questions at the same time','Answer what you can remember without re-reading','Read the entire passage first, then read the questions'] },
   // Wave 2
