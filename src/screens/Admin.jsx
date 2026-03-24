@@ -1,12 +1,9 @@
 import { useState } from 'react'
-import { ArrowLeft, Plus, List, Upload, BarChart2, Settings } from 'lucide-react'
-import { initialCardState } from '../lib/sm2'
+import { ArrowLeft, List, BarChart2, Settings } from 'lucide-react'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
 const TABS = [
   { id: 'cards', label: 'Cards', Icon: List },
-  { id: 'add', label: 'Add', Icon: Plus },
-  { id: 'import', label: 'Import', Icon: Upload },
   { id: 'stats', label: 'Stats', Icon: BarChart2 },
   { id: 'settings', label: 'Settings', Icon: Settings },
 ]
@@ -80,8 +77,6 @@ export default function Admin({ data, progress, updateData, updateProgress, setS
 
       <div className="flex-1 overflow-y-auto">
         {tab === 'cards' && <CardListTab data={data} updateData={updateData} />}
-        {tab === 'add' && <AddCardTab data={data} updateData={updateData} />}
-        {tab === 'import' && <ImportTab data={data} updateData={updateData} />}
         {tab === 'stats' && <StatsTab data={data} progress={progress} />}
         {tab === 'settings' && <SettingsTab data={data} progress={progress} updateData={updateData} updateProgress={updateProgress} progress={progress} />}
       </div>
@@ -214,192 +209,6 @@ function CardInlineEdit({ card, data, updateData, onDone }) {
       <button onClick={save} className="bg-emerald-500 text-black font-bold py-2 rounded-lg text-sm">
         Save
       </button>
-    </div>
-  )
-}
-
-// --- Add Card Tab ---
-function AddCardTab({ data, updateData }) {
-  const [type, setType] = useState('vocabulary')
-  const [form, setForm] = useState({})
-  const [saved, setSaved] = useState(false)
-
-  function set(key, val) { setForm(f => ({ ...f, [key]: val })) }
-
-  function save() {
-    const id = `${type}_${Date.now()}`
-    const card = { id, type, ...initialCardState(), ...form }
-    updateData({ ...data, cards: [...data.cards, card] })
-    setForm({})
-    setSaved(true)
-    setTimeout(() => setSaved(false), 2000)
-  }
-
-  return (
-    <div className="p-4 flex flex-col gap-4">
-      <select
-        value={type}
-        onChange={e => { setType(e.target.value); setForm({}) }}
-        className="bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white"
-      >
-        <option value="vocabulary">Vocabulary</option>
-        <option value="literary_device">Literary Device</option>
-        <option value="grammar">Grammar</option>
-        <option value="maths_technique">Maths Technique</option>
-        <option value="strategy">Strategy</option>
-      </select>
-
-      {type === 'vocabulary' && <>
-        <Field label="Word" value={form.word || ''} onChange={v => set('word', v)} />
-        <Field label="Definition" value={form.definition || ''} onChange={v => set('definition', v)} />
-        <Field label="Simple definition" value={form.definitionSimple || ''} onChange={v => set('definitionSimple', v)} />
-        <Field label="Example sentence" value={form.exampleSentence || ''} onChange={v => set('exampleSentence', v)} />
-        <Field
-          label="Synonyms (comma-separated)"
-          value={form.synonymsRaw || ''}
-          onChange={v => { set('synonymsRaw', v); set('synonyms', v.split(',').map(s => s.trim()).filter(Boolean)) }}
-        />
-      </>}
-
-      {type === 'literary_device' && <>
-        <Field label="Term" value={form.term || ''} onChange={v => set('term', v)} />
-        <Field label="Definition" value={form.definition || ''} onChange={v => set('definition', v)} />
-        <Field label="Example" value={form.example || ''} onChange={v => set('example', v)} />
-      </>}
-
-      {type === 'maths_technique' && <>
-        <Field label="Question" value={form.question || ''} onChange={v => set('question', v)} />
-        <Field label="Method" value={form.method || ''} onChange={v => set('method', v)} textarea />
-        <Field label="Example" value={form.example || ''} onChange={v => set('example', v)} />
-      </>}
-
-      {type === 'strategy' && <>
-        <Field label="Question" value={form.question || ''} onChange={v => set('question', v)} />
-        <Field label="Correct answer" value={form.answer || ''} onChange={v => set('answer', v)} textarea />
-      </>}
-
-      {type === 'grammar' && <>
-        <Field label="Subtype (suffix or term)" value={form.subtype || ''} onChange={v => set('subtype', v)} />
-        <Field label="Suffix or Term" value={form.suffix || form.term || ''} onChange={v => { set('suffix', v); set('term', v) }} />
-        <Field label="Part of Speech / Definition" value={form.partOfSpeech || form.definition || ''} onChange={v => { set('partOfSpeech', v); set('definition', v) }} />
-        <Field label="Examples (comma-separated)" value={form.examplesRaw || ''} onChange={v => { set('examplesRaw', v); set('examples', v.split(',').map(s => s.trim()).filter(Boolean)) }} />
-      </>}
-
-      <button
-        onClick={save}
-        className={`py-4 rounded-xl font-bold transition-colors ${saved ? 'bg-emerald-700 text-white' : 'bg-emerald-500 text-black'}`}
-      >
-        {saved ? 'Saved!' : 'Add Card'}
-      </button>
-    </div>
-  )
-}
-
-function Field({ label, value, onChange, textarea }) {
-  return (
-    <div className="flex flex-col gap-1">
-      <label className="text-gray-500 text-xs">{label}</label>
-      {textarea
-        ? <textarea value={value} onChange={e => onChange(e.target.value)} rows={3}
-            className="bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white resize-none focus:outline-none" />
-        : <input value={value} onChange={e => onChange(e.target.value)}
-            className="bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none" />
-      }
-    </div>
-  )
-}
-
-// --- Import Tab ---
-function ImportTab({ data, updateData }) {
-  const [text, setText] = useState('')
-  const [preview, setPreview] = useState(null)
-
-  function parseReport(raw) {
-    const existingWords = new Set(
-      data.cards.filter(c => c.type === 'vocabulary').map(c => c.word?.toLowerCase())
-    )
-    const lines = raw.split('\n').map(l => l.trim()).filter(Boolean)
-    const stopWords = new Set(['vocabulary:', 'new vocabulary:', 'new vocabulary', 'homework:', 'homework'])
-    const cards = []
-    let hitHomework = false
-
-    for (const line of lines) {
-      if (hitHomework) break
-      if (line.toLowerCase().startsWith('homework')) { hitHomework = true; continue }
-      if (stopWords.has(line.toLowerCase())) continue
-
-      let word, definition = ''
-      if (line.includes(';')) {
-        [word, definition] = line.split(';').map(s => s.trim())
-      } else if (line.split(' ').length <= 3) {
-        word = line
-      } else continue
-
-      if (!word) continue
-      const skip = existingWords.has(word.toLowerCase())
-      cards.push({ word, definition, skip })
-    }
-    return cards
-  }
-
-  function handlePreview() {
-    setPreview(parseReport(text))
-  }
-
-  function handleImport() {
-    const toAdd = preview.filter(p => !p.skip).map((p, i) => ({
-      id: `vocab_import_${Date.now()}_${i}`,
-      type: 'vocabulary',
-      word: p.word,
-      definition: p.definition,
-      definitionSimple: '',
-      exampleSentence: '',
-      synonyms: [],
-      antonyms: [],
-      ...initialCardState(),
-    }))
-    updateData({ ...data, cards: [...data.cards, ...toAdd] })
-    setText('')
-    setPreview(null)
-  }
-
-  return (
-    <div className="p-4 flex flex-col gap-4">
-      <p className="text-gray-500 text-sm">Paste vocabulary section from tutor report:</p>
-      <textarea
-        value={text}
-        onChange={e => setText(e.target.value)}
-        rows={8}
-        placeholder={"Reluctant\nExasperated; feeling super annoyed"}
-        className="bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white resize-none focus:outline-none text-sm"
-      />
-      <button onClick={handlePreview} className="bg-gray-700 text-white font-bold py-3 rounded-xl">
-        Preview
-      </button>
-
-      {preview && (
-        <div className="flex flex-col gap-3">
-          <p className="text-gray-400 text-sm">
-            Found {preview.filter(p => !p.skip).length} new words.{' '}
-            {preview.filter(p => p.skip).length} already exist (skipped).
-          </p>
-          <div className="flex flex-col gap-2 max-h-48 overflow-y-auto">
-            {preview.map((p, i) => (
-              <div key={i} className={`text-sm ${p.skip ? 'text-gray-700' : 'text-gray-300'}`}>
-                {p.skip ? '✗ ' : '+ '}{p.word}{p.definition ? ` — ${p.definition}` : ''}
-              </div>
-            ))}
-          </div>
-          <div className="flex gap-3">
-            <button onClick={handleImport} className="flex-1 bg-emerald-500 text-black font-bold py-3 rounded-xl">
-              Add All
-            </button>
-            <button onClick={() => setPreview(null)} className="flex-1 bg-gray-800 text-white py-3 rounded-xl">
-              Cancel
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
