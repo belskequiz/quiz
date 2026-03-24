@@ -356,6 +356,13 @@ function SettingsTab({ data, updateData, progress, updateProgress }) {
     }})
   }
 
+  function unlockAllCards() {
+    const updatedCards = data.cards.map(c =>
+      c.lastReviewDate ? c : { ...c, nextReviewDate: null }
+    )
+    updateData({ ...data, cards: updatedCards })
+  }
+
   function clearProgress() {
     const settings = data.settings
     localStorage.clear()
@@ -440,6 +447,14 @@ function SettingsTab({ data, updateData, progress, updateProgress }) {
       </div>
 
       <div className="flex flex-col gap-2 pt-4 border-t border-gray-800">
+        <button
+          onClick={unlockAllCards}
+          className="bg-indigo-700 hover:bg-indigo-600 text-white font-bold py-3 rounded-xl"
+        >
+          Unlock all cards
+        </button>
+        <p className="text-gray-600 text-xs text-center -mt-1">Makes all waves available immediately (reviewed cards are unaffected)</p>
+
         {!clearProgressConfirm ? (
           <button onClick={() => setClearProgressConfirm(true)} className="text-red-700 text-sm py-3">
             Clear progress…
