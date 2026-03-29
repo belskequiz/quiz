@@ -3014,27 +3014,27 @@
       "id": "arith_rv03",
       "wave": 1,
       "type": "arithmetic",
-      "question": "If 90 is 30%, what is 100%?",
-      "answer": 300,
-      "explanation": "30% = 90, so 10% = 30, 100% = 300",
+      "question": "If 36 is 20%, what is 100%?",
+      "answer": 180,
+      "explanation": "20% = 36, so 1% = 1.8, 100% = 180",
       "nextReviewDate": null
     },
     {
       "id": "arith_rv04",
       "wave": 1,
       "type": "arithmetic",
-      "question": "If 150 is 50%, what is 100%?",
-      "answer": 300,
-      "explanation": "50% = 150, so 100% = 300",
+      "question": "If 125 is 50%, what is 100%?",
+      "answer": 250,
+      "explanation": "50% = 125, so 100% = 125 × 2 = 250",
       "nextReviewDate": null
     },
     {
       "id": "arith_rv05",
       "wave": 1,
       "type": "arithmetic",
-      "question": "If 120 is 40%, what is 100%?",
-      "answer": 300,
-      "explanation": "40% = 120, so 10% = 30, 100% = 300",
+      "question": "If 80 is 16%, what is 100%?",
+      "answer": 500,
+      "explanation": "16% = 80, so 1% = 5, 100% = 500",
       "nextReviewDate": null
     },
     {
@@ -3068,18 +3068,18 @@
       "id": "arith_rv09",
       "wave": 2,
       "type": "arithmetic",
-      "question": "If 63 is 9%, what is 100%?",
-      "answer": 700,
-      "explanation": "9% = 63, so 1% = 7, 100% = 700",
+      "question": "If 48 is 8%, what is 100%?",
+      "answer": 600,
+      "explanation": "8% = 48, so 1% = 6, 100% = 600",
       "nextReviewDate": "2026-03-31"
     },
     {
       "id": "arith_rv10",
       "wave": 2,
       "type": "arithmetic",
-      "question": "If 84 is 12%, what is 100%?",
-      "answer": 700,
-      "explanation": "12% = 84, so 1% = 7, 100% = 700",
+      "question": "If 72 is 9%, what is 100%?",
+      "answer": 800,
+      "explanation": "9% = 72, so 1% = 8, 100% = 800",
       "nextReviewDate": "2026-03-31"
     },
     {
