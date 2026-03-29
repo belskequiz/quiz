@@ -286,15 +286,15 @@ export const arithmeticCards = [
   // Wave 1 — Reverse percentages (5)
   { id:'arith_rv01', wave:1, type:'arithmetic', question:'If 60 is 20%, what is 100%?', answer:300, explanation:'20% = 60, so 1% = 3, 100% = 300' },
   { id:'arith_rv02', wave:1, type:'arithmetic', question:'If 40 is 10%, what is 100%?', answer:400, explanation:'10% = 40, so 100% = 400' },
-  { id:'arith_rv03', wave:1, type:'arithmetic', question:'If 90 is 30%, what is 100%?', answer:300, explanation:'30% = 90, so 10% = 30, 100% = 300' },
-  { id:'arith_rv04', wave:1, type:'arithmetic', question:'If 150 is 50%, what is 100%?', answer:300, explanation:'50% = 150, so 100% = 300' },
-  { id:'arith_rv05', wave:1, type:'arithmetic', question:'If 120 is 40%, what is 100%?', answer:300, explanation:'40% = 120, so 10% = 30, 100% = 300' },
+  { id:'arith_rv03', wave:1, type:'arithmetic', question:'If 36 is 20%, what is 100%?', answer:180, explanation:'20% = 36, so 1% = 1.8, 100% = 180' },
+  { id:'arith_rv04', wave:1, type:'arithmetic', question:'If 125 is 50%, what is 100%?', answer:250, explanation:'50% = 125, so 100% = 125 × 2 = 250' },
+  { id:'arith_rv05', wave:1, type:'arithmetic', question:'If 80 is 16%, what is 100%?', answer:500, explanation:'16% = 80, so 1% = 5, 100% = 500' },
   // Wave 2 — Reverse percentages (5)
   { id:'arith_rv06', wave:2, type:'arithmetic', question:'If 35 is 5%, what is 100%?', answer:700, explanation:'5% = 35, so 1% = 7, 100% = 700' },
   { id:'arith_rv07', wave:2, type:'arithmetic', question:'If 150 is 75%, what is 100%?', answer:200, explanation:'75% = 150, so 25% = 50, 100% = 200' },
   { id:'arith_rv08', wave:2, type:'arithmetic', question:'If 45 is 15%, what is 100%?', answer:300, explanation:'15% = 45, so 5% = 15, 10% = 30, 100% = 300' },
-  { id:'arith_rv09', wave:2, type:'arithmetic', question:'If 63 is 9%, what is 100%?', answer:700, explanation:'9% = 63, so 1% = 7, 100% = 700' },
-  { id:'arith_rv10', wave:2, type:'arithmetic', question:'If 84 is 12%, what is 100%?', answer:700, explanation:'12% = 84, so 1% = 7, 100% = 700' },
+  { id:'arith_rv09', wave:2, type:'arithmetic', question:'If 48 is 8%, what is 100%?', answer:600, explanation:'8% = 48, so 1% = 6, 100% = 600' },
+  { id:'arith_rv10', wave:2, type:'arithmetic', question:'If 72 is 9%, what is 100%?', answer:800, explanation:'9% = 72, so 1% = 8, 100% = 800' },
   // Wave 1 — Find what's left (4)
   { id:'arith_wl01', wave:1, type:'arithmetic', question:'A bakery makes 400 cupcakes. By noon 85% are sold. How many are left?', answer:60, explanation:'100% − 85% = 15%. 10% = 40, 5% = 20, so 15% = 60' },
   { id:'arith_wl02', wave:1, type:'arithmetic', question:'A library has 800 books. 25% are checked out. How many are on the shelves?', answer:600, explanation:'100% − 25% = 75%. 75% of 800 = 600' },
