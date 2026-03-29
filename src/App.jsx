@@ -91,10 +91,10 @@ export default function App() {
   }, [])
 
   const handleSessionComplete = useCallback((results) => {
-    setSessionResults(results)
+    setSessionResults({ ...results, isBonus: bonusConfig != null })
     setBonusConfig(null)
     setScreen('results')
-  }, [])
+  }, [bonusConfig])
 
   const handleContinue = useCallback(() => {
     setBonusConfig({
