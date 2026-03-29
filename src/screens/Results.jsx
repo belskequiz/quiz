@@ -3,13 +3,33 @@ import { Star, Flame, ChevronDown, ChevronUp, Trophy } from 'lucide-react'
 import { updateStreak } from '../lib/streak'
 import { isMastered } from '../lib/sm2'
 
+const STAR_MESSAGES = [
+  'Star earned!',
+  'You earned a star!',
+  'Amazing work!',
+  'Brilliant effort!',
+  'Keep shining!',
+]
+
+const BONUS_MESSAGES = [
+  'Great extra practice!',
+  'Nice bonus round!',
+  'Extra effort pays off!',
+  'Well done pushing further!',
+  'Way to go the extra mile!',
+]
+
+function pickRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)]
+}
+
 export default function Results({ data, progress, updateProgress, setScreen, results, onContinue }) {
   const [errorsOpen, setErrorsOpen] = useState(false)
   const today = new Date().toISOString().slice(0, 10)
 
-  const { total, correct, results: cardResults, cards: updatedCards } = results
+  const { total, correct, results: cardResults, cards: updatedCards, isBonus } = results
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0
-  const starEarned = pct >= data.settings.starThreshold
+  const starEarned = !isBonus && pct >= data.settings.starThreshold
 
   // Cards that newly crossed the mastered threshold this session
   const newlyMastered = cardResults.filter(r => {
@@ -21,6 +41,27 @@ export default function Results({ data, progress, updateProgress, setScreen, res
 
   // Update progress (once on mount via lazy init)
   const [newProgress] = useState(() => {
+    if (isBonus) {
+      // Bonus sessions: record the session but no star, no streak/dailyLog update
+      const errors = cardResults.filter(r => !r.correct).map(r => r.cardId)
+      const session = {
+        date: today,
+        total,
+        correct,
+        pct,
+        star: false,
+        bonus: true,
+        errors,
+        newlyMastered: newlyMastered.length,
+      }
+      const updated = {
+        ...progress,
+        sessions: [...progress.sessions, session],
+      }
+      updateProgress(updated)
+      return updated
+    }
+
     const newStreak = updateStreak(progress.streak, today)
     const newStars = progress.totalStars + (starEarned ? 1 : 0)
     const errors = cardResults.filter(r => !r.correct).map(r => r.cardId)
@@ -47,6 +88,9 @@ export default function Results({ data, progress, updateProgress, setScreen, res
     return updated
   })
 
+  const [starMessage] = useState(() => pickRandom(STAR_MESSAGES))
+  const [bonusMessage] = useState(() => pickRandom(BONUS_MESSAGES))
+
   const pctColor = pct >= 70 ? 'text-emerald-400' : pct >= 50 ? 'text-yellow-400' : 'text-red-400'
   const errors = cardResults.filter(r => !r.correct)
 
@@ -58,21 +102,27 @@ export default function Results({ data, progress, updateProgress, setScreen, res
         <span className="text-gray-400">{correct} / {total} correct</span>
       </div>
 
-      {/* Star + Streak */}
+      {/* Star (main session only) + Streak */}
       <div className="flex gap-8 items-center">
         {starEarned && (
           <div className="flex flex-col items-center gap-1">
             <Star size={40} className="text-yellow-400 fill-yellow-400" />
-            <span className="text-yellow-400 text-sm font-medium">Star earned!</span>
+            <span className="text-yellow-400 text-sm font-medium">{starMessage}</span>
           </div>
         )}
-        <div className="flex flex-col items-center gap-1">
-          <div className="flex items-center gap-2">
-            <Flame size={28} className="text-orange-400" />
-            <span className="text-3xl font-bold text-orange-400">{newProgress.streak.current}</span>
+        {isBonus ? (
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-emerald-400 text-lg font-semibold">{bonusMessage}</span>
           </div>
-          <span className="text-gray-500 text-sm">day streak</span>
-        </div>
+        ) : (
+          <div className="flex flex-col items-center gap-1">
+            <div className="flex items-center gap-2">
+              <Flame size={28} className="text-orange-400" />
+              <span className="text-3xl font-bold text-orange-400">{newProgress.streak.current}</span>
+            </div>
+            <span className="text-gray-500 text-sm">day streak</span>
+          </div>
+        )}
       </div>
 
       {/* Newly mastered */}
@@ -112,7 +162,7 @@ export default function Results({ data, progress, updateProgress, setScreen, res
 
       <div className="flex-1" />
 
-      {onContinue && (
+      {!isBonus && onContinue && (
         <button
           onClick={onContinue}
           className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-4 rounded-2xl transition-colors"
