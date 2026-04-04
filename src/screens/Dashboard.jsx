@@ -1,10 +1,25 @@
 import { Flame, Star, Trophy, Settings } from 'lucide-react'
 import { isMastered, isDue } from '../lib/sm2'
 
+function getWeeklyStars(dailyLog) {
+  const now = new Date()
+  const day = now.getDay() // 0=Sun, 1=Mon...
+  const monday = new Date(now)
+  monday.setDate(now.getDate() - ((day + 6) % 7))
+  monday.setHours(0, 0, 0, 0)
+
+  let count = 0
+  for (const [date, entry] of Object.entries(dailyLog)) {
+    if (entry.star && new Date(date + 'T00:00:00') >= monday) count++
+  }
+  return count
+}
+
 export default function Dashboard({ data, progress, setScreen }) {
   const today = new Date().toISOString().slice(0, 10)
   const todayLog = progress.dailyLog[today]
   const starEarned = todayLog?.star ?? false
+  const weeklyStars = getWeeklyStars(progress.dailyLog)
 
   const dueCount = data.cards.filter(c => isDue(c, today)).length
   const masteredCount = data.cards.filter(c => isMastered(c)).length
@@ -46,6 +61,14 @@ export default function Dashboard({ data, progress, setScreen }) {
               className={starEarned ? 'text-yellow-400 fill-yellow-400' : 'text-gray-700'}
             />
             <span className="text-xs text-gray-500">today</span>
+          </div>
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-2xl font-bold text-yellow-400">{weeklyStars}</span>
+            <span className="text-xs text-gray-500">this week</span>
+          </div>
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-2xl font-bold text-yellow-400">{progress.totalStars}</span>
+            <span className="text-xs text-gray-500">total stars</span>
           </div>
           <div className="flex flex-col items-center gap-1">
             <span className="text-2xl font-bold text-emerald-400">{dueCount}</span>
