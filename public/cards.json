@@ -1542,6 +1542,309 @@
       "nextReviewDate": null
     },
     {
+      "id": "vocab_089",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "interior",
+      "definition": "The inner part or inside of something",
+      "definitionSimple": "The inside of something",
+      "exampleSentence": "The interior of the castle was decorated with tapestries and paintings.",
+      "synonyms": [
+        "inside",
+        "inner"
+      ],
+      "antonyms": [
+        "exterior",
+        "outside"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_090",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "exterior",
+      "definition": "The outer surface or outside of something",
+      "definitionSimple": "The outside of something",
+      "exampleSentence": "The exterior of the building was covered in ivy.",
+      "synonyms": [
+        "outside",
+        "outer"
+      ],
+      "antonyms": [
+        "interior",
+        "inside"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_091",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "gradient",
+      "definition": "A slope or the degree of steepness of a slope",
+      "definitionSimple": "How steep a hill or slope is",
+      "exampleSentence": "The road had a steep gradient that made cycling difficult.",
+      "synonyms": [
+        "slope",
+        "incline"
+      ],
+      "antonyms": [
+        "flat",
+        "level"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_092",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "persistence",
+      "definition": "The quality of continuing firmly despite difficulty or opposition",
+      "definitionSimple": "Keeping going even when things are really hard",
+      "exampleSentence": "Her persistence paid off when she finally solved the puzzle.",
+      "synonyms": [
+        "determination",
+        "perseverance"
+      ],
+      "antonyms": [
+        "laziness",
+        "giving up"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_093",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "dismay",
+      "definition": "A feeling of distress and disappointment caused by something unexpected",
+      "definitionSimple": "That sinking feeling when something bad happens that you did not expect",
+      "exampleSentence": "To her dismay, the trip was cancelled due to bad weather.",
+      "synonyms": [
+        "alarm",
+        "distress"
+      ],
+      "antonyms": [
+        "delight",
+        "joy"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_094",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "exhilarating",
+      "definition": "Making one feel very happy, animated, or elated",
+      "definitionSimple": "So exciting and fun that it gives you a huge rush of energy",
+      "exampleSentence": "The exhilarating roller coaster ride left them all breathless.",
+      "synonyms": [
+        "thrilling",
+        "exciting"
+      ],
+      "antonyms": [
+        "boring",
+        "dull"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_095",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "condescending",
+      "definition": "Having or showing an attitude of patronising superiority",
+      "definitionSimple": "Talking down to someone as if they are not as smart as you",
+      "exampleSentence": "His condescending tone made everyone in the room feel uncomfortable.",
+      "synonyms": [
+        "patronising",
+        "superior"
+      ],
+      "antonyms": [
+        "respectful",
+        "humble"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_096",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "authoritative",
+      "definition": "Commanding and self-confident; showing authority",
+      "definitionSimple": "Speaking or acting in a way that makes people listen and trust you",
+      "exampleSentence": "The teacher spoke in an authoritative voice that silenced the class.",
+      "synonyms": [
+        "commanding",
+        "confident"
+      ],
+      "antonyms": [
+        "timid",
+        "uncertain"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_097",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "dismissive",
+      "definition": "Showing that something is unworthy of consideration",
+      "definitionSimple": "Acting like something or someone is not important or worth your time",
+      "exampleSentence": "She was dismissive of his idea without even hearing it properly.",
+      "synonyms": [
+        "contemptuous",
+        "scornful"
+      ],
+      "antonyms": [
+        "attentive",
+        "respectful"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_098",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "abundant",
+      "definition": "Existing in very large quantities; plentiful",
+      "definitionSimple": "There is loads and loads of something",
+      "exampleSentence": "The garden had an abundant supply of fresh vegetables.",
+      "synonyms": [
+        "plentiful",
+        "copious"
+      ],
+      "antonyms": [
+        "scarce",
+        "rare"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_099",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "tuneless",
+      "definition": "Not having a pleasant or recognisable tune; not melodious",
+      "definitionSimple": "Sounds really bad and has no proper tune",
+      "exampleSentence": "His tuneless singing made the dog howl along.",
+      "synonyms": [
+        "unmelodious",
+        "discordant"
+      ],
+      "antonyms": [
+        "melodious",
+        "tuneful"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_100",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "monotony",
+      "definition": "Lack of variety and interest; tedious repetition",
+      "definitionSimple": "When everything is the same and really boring",
+      "exampleSentence": "The monotony of the long car journey sent the children to sleep.",
+      "synonyms": [
+        "tedium",
+        "boredom"
+      ],
+      "antonyms": [
+        "variety",
+        "excitement"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_101",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "contrast",
+      "definition": "The state of being strikingly different from something else",
+      "definitionSimple": "When two things are really different from each other",
+      "exampleSentence": "The contrast between the sunny morning and the stormy afternoon was striking.",
+      "synonyms": [
+        "difference",
+        "distinction"
+      ],
+      "antonyms": [
+        "similarity",
+        "likeness"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_102",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "disdain",
+      "definition": "The feeling that someone or something is unworthy of respect or attention",
+      "definitionSimple": "Looking down on something because you think it is beneath you",
+      "exampleSentence": "She looked at the messy room with disdain.",
+      "synonyms": [
+        "contempt",
+        "scorn"
+      ],
+      "antonyms": [
+        "admiration",
+        "respect"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_103",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "moral",
+      "definition": "A lesson about right and wrong that can be learned from a story or experience",
+      "definitionSimple": "The lesson a story is trying to teach you about being good",
+      "exampleSentence": "The moral of the story is that honesty is always the best policy.",
+      "synonyms": [
+        "lesson",
+        "message"
+      ],
+      "antonyms": [],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_104",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "appal",
+      "definition": "To greatly shock or horrify",
+      "definitionSimple": "To be so shocked by something bad that you can hardly believe it",
+      "exampleSentence": "The state of the polluted river appalled the local residents.",
+      "synonyms": [
+        "horrify",
+        "shock"
+      ],
+      "antonyms": [
+        "delight",
+        "please"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "vocab_105",
+      "wave": 2,
+      "type": "vocabulary",
+      "word": "fantastical",
+      "definition": "Strange and imaginative; seeming more appropriate to a fantasy than to real life",
+      "definitionSimple": "So weird and magical that it feels like it belongs in a fairy tale",
+      "exampleSentence": "The book described a fantastical world full of talking animals and flying ships.",
+      "synonyms": [
+        "imaginary",
+        "fanciful"
+      ],
+      "antonyms": [
+        "realistic",
+        "ordinary"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
       "id": "lit_001",
       "wave": 1,
       "type": "literary_device",
@@ -2001,6 +2304,62 @@
         "through"
       ],
       "nextReviewDate": "2026-04-14"
+    },
+    {
+      "id": "gram_030",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Concrete noun",
+      "definition": "A noun that names something you can experience with your five senses — you can see, hear, touch, smell, or taste it",
+      "examples": [
+        "table",
+        "music",
+        "chocolate"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_031",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Abstract noun",
+      "definition": "A noun that names an idea, feeling, or quality that you cannot experience with your five senses",
+      "examples": [
+        "happiness",
+        "courage",
+        "freedom"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_032",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Compound noun",
+      "definition": "A noun made up of two or more words combined to create a new meaning",
+      "examples": [
+        "toothpaste",
+        "football",
+        "swimming pool"
+      ],
+      "nextReviewDate": "2026-03-31"
+    },
+    {
+      "id": "gram_033",
+      "wave": 2,
+      "type": "grammar",
+      "subtype": "term",
+      "term": "Collective noun",
+      "definition": "A noun that refers to a group of people, animals, or things as a single unit",
+      "examples": [
+        "a flock of birds",
+        "a team of players",
+        "a bunch of flowers"
+      ],
+      "nextReviewDate": "2026-03-31"
     },
     {
       "id": "gram_005",
