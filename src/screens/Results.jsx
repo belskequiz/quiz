@@ -81,7 +81,7 @@ export default function Results({ data, progress, updateProgress, setScreen, res
       sessions: [...progress.sessions, session],
       dailyLog: {
         ...progress.dailyLog,
-        [today]: { completed: true, star: starEarned, pct },
+        [today]: { completed: true, star: starEarned || (progress.dailyLog[today]?.star ?? false), pct },
       },
     }
     updateProgress(updated)
