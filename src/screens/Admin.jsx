@@ -419,7 +419,7 @@ function SettingsTab({ data, updateData, progress, updateProgress }) {
       <div className="flex flex-col gap-2">
         <label className="text-gray-400 text-sm font-medium">Cards per session</label>
         <div className="flex gap-3">
-          {[10, 15, 20].map(n => (
+          {[10, 15, 20, 25, 30].map(n => (
             <button key={n} onClick={() => setCardsPerSession(n)}
               className={`flex-1 py-3 rounded-xl font-bold transition-colors ${
                 data.settings.cardsPerSession === n ? 'bg-emerald-500 text-black' : 'bg-gray-800 text-gray-400'
